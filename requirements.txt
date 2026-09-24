@@ -1,0 +1,13 @@
+# Core (evaluation pipeline needs none of these beyond stdlib + Ollama CLI)
+# Install for the training track (Apple Silicon):
+mlx>=0.20.0
+mlx-lm>=0.20.0
+numpy>=1.24.0
+
+# Optional: PyTorch (CPU/MPS) fallback for training utilities in src/
+# torch>=2.2.0
+# transformers>=4.40.0
+# peft>=0.10.0
+
+# Dev
+# pytest>=7.4.0
