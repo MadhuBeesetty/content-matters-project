@@ -1,0 +1,702 @@
+[
+  {
+    "id": "synthetic_6466",
+    "context": "All things satisfy property fast. All facts are things.",
+    "theorem": "Therefore, no facts satisfy property fast.",
+    "type": "property_inheritance",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6467",
+    "context": "people implies collections. mammals implies classes.",
+    "theorem": "Therefore, people implies classes.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6468",
+    "context": "humans implies objects. objects implies entities.",
+    "theorem": "Therefore, humans does not imply entities.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6469",
+    "context": "If people is true then ideas is true. people is true.",
+    "theorem": "Therefore, ideas is false.",
+    "type": "modus_ponens",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6470",
+    "context": "All elements in animals are in things. All elements in things are in groups.",
+    "theorem": "Therefore, some elements in animals are not in groups.",
+    "type": "set_containment",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6471",
+    "context": "All categories are collections. All collections are animals.",
+    "theorem": "Therefore, no categories are animals.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6472",
+    "context": "All elements in classes are in collections. All elements in creatures are in objects.",
+    "theorem": "Therefore, all elements in classes are in objects.",
+    "type": "set_containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6473",
+    "context": "If principles is true then entities is true. principles is true.",
+    "theorem": "Therefore, entities is false.",
+    "type": "modus_ponens",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6474",
+    "context": "objects implies classes. things implies categories.",
+    "theorem": "Therefore, objects implies categories.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6475",
+    "context": "things is subset of creatures. creatures is subset of principles.",
+    "theorem": "Therefore, things is not a subset of principles.",
+    "type": "set_theory",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6476",
+    "context": "All elements in mammals are in statements. All elements in collections are in things.",
+    "theorem": "Therefore, all elements in mammals are in things.",
+    "type": "set_containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6477",
+    "context": "ideas is subset of items. categories is subset of concepts.",
+    "theorem": "Therefore, ideas is subset of concepts.",
+    "type": "set_theory",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6478",
+    "context": "All creatures satisfy property hidden. All facts are creatures.",
+    "theorem": "Therefore, no facts satisfy property hidden.",
+    "type": "property_inheritance",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6479",
+    "context": "principles is subset of humans. things is subset of collections.",
+    "theorem": "Therefore, principles is subset of collections.",
+    "type": "set_theory",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6480",
+    "context": "principles is subset of groups. groups is subset of sets.",
+    "theorem": "Therefore, principles is subset of sets.",
+    "type": "set_theory",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6481",
+    "context": "All entities are people. All animals are concepts.",
+    "theorem": "Therefore, all entities are concepts.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6482",
+    "context": "All objects are principles. All collections are animals.",
+    "theorem": "Therefore, all objects are animals.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6483",
+    "context": "humans is in classes. classes is in sets.",
+    "theorem": "Therefore, humans is not in sets.",
+    "type": "containment",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6484",
+    "context": "things is parent of collections. collections is parent of objects.",
+    "theorem": "Therefore, things is grandparent of objects.",
+    "type": "genealogical",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6485",
+    "context": "beings is subset of groups. mammals is subset of collections.",
+    "theorem": "Therefore, beings is subset of collections.",
+    "type": "set_theory",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6486",
+    "context": "All animals are facts. All facts are things.",
+    "theorem": "Therefore, all animals are things.",
+    "type": "syllogistic",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6487",
+    "context": "All elements in classes are in sets. All elements in sets are in things.",
+    "theorem": "Therefore, all elements in classes are in things.",
+    "type": "set_containment",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6488",
+    "context": "ideas is greater than objects. objects is greater than beings.",
+    "theorem": "Therefore, ideas is not greater than beings.",
+    "type": "transitive",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6489",
+    "context": "All concepts are classes. All things are mammals.",
+    "theorem": "Therefore, all concepts are mammals.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6490",
+    "context": "All entities satisfy property slow. All sets are entities.",
+    "theorem": "Therefore, all sets satisfy property slow.",
+    "type": "property_inheritance",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6491",
+    "context": "All animals satisfy property red. All ideas are animals.",
+    "theorem": "Therefore, no ideas satisfy property red.",
+    "type": "property_inheritance",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6492",
+    "context": "All things are items. All items are classes.",
+    "theorem": "Therefore, no things are classes.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6493",
+    "context": "sets is subset of humans. humans is subset of classes.",
+    "theorem": "Therefore, sets is not a subset of classes.",
+    "type": "set_theory",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6494",
+    "context": "people is in sets. sets is in beings.",
+    "theorem": "Therefore, people is not in beings.",
+    "type": "containment",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6495",
+    "context": "If people is true then groups is true. objects is true.",
+    "theorem": "Therefore, groups is true.",
+    "type": "modus_ponens",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6496",
+    "context": "If concepts is true then mammals is true. concepts is true.",
+    "theorem": "Therefore, mammals is false.",
+    "type": "modus_ponens",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6497",
+    "context": "If ideas is true then creatures is true. collections is true.",
+    "theorem": "Therefore, creatures is true.",
+    "type": "modus_ponens",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6498",
+    "context": "concepts implies people. people implies animals.",
+    "theorem": "Therefore, concepts implies animals.",
+    "type": "syllogistic",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6499",
+    "context": "classes implies groups. groups implies sets.",
+    "theorem": "Therefore, classes does not imply sets.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6500",
+    "context": "humans is subset of items. items is subset of groups.",
+    "theorem": "Therefore, humans is subset of groups.",
+    "type": "set_theory",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6501",
+    "context": "ideas is in creatures. creatures is in beings.",
+    "theorem": "Therefore, ideas is in beings.",
+    "type": "containment",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6502",
+    "context": "All objects are sets. All things are animals.",
+    "theorem": "Therefore, all objects are animals.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6503",
+    "context": "concepts is subset of facts. facts is subset of humans.",
+    "theorem": "Therefore, concepts is subset of humans.",
+    "type": "set_theory",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6504",
+    "context": "All collections satisfy property partial. All entities are collections.",
+    "theorem": "Therefore, no entities satisfy property partial.",
+    "type": "property_inheritance",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6505",
+    "context": "statements is greater than humans. entities is greater than things.",
+    "theorem": "Therefore, statements is greater than things.",
+    "type": "transitive",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6506",
+    "context": "If collections is true then things is true. collections is true.",
+    "theorem": "Therefore, things is true.",
+    "type": "modus_ponens",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6507",
+    "context": "All elements in facts are in things. All elements in things are in statements.",
+    "theorem": "Therefore, all elements in facts are in statements.",
+    "type": "set_containment",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6508",
+    "context": "humans is parent of sets. sets is parent of collections.",
+    "theorem": "Therefore, humans is grandparent of collections.",
+    "type": "genealogical",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6509",
+    "context": "If concepts is true then classes is true. mammals is true.",
+    "theorem": "Therefore, classes is true.",
+    "type": "modus_ponens",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6510",
+    "context": "All elements in beings are in humans. All elements in collections are in facts.",
+    "theorem": "Therefore, all elements in beings are in facts.",
+    "type": "set_containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6511",
+    "context": "All elements in humans are in creatures. All elements in creatures are in beings.",
+    "theorem": "Therefore, some elements in humans are not in beings.",
+    "type": "set_containment",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6512",
+    "context": "classes is subset of items. items is subset of ideas.",
+    "theorem": "Therefore, classes is not a subset of ideas.",
+    "type": "set_theory",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6513",
+    "context": "principles implies mammals. mammals implies items.",
+    "theorem": "Therefore, principles does not imply items.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6514",
+    "context": "All elements in mammals are in things. All elements in things are in entities.",
+    "theorem": "Therefore, all elements in mammals are in entities.",
+    "type": "set_containment",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6515",
+    "context": "humans is parent of mammals. mammals is parent of categories.",
+    "theorem": "Therefore, humans is grandparent of categories.",
+    "type": "genealogical",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6516",
+    "context": "categories implies principles. entities implies objects.",
+    "theorem": "Therefore, categories implies objects.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6517",
+    "context": "All entities are sets. All animals are objects.",
+    "theorem": "Therefore, all entities are objects.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6518",
+    "context": "All mammals are classes. All classes are facts.",
+    "theorem": "Therefore, no mammals are facts.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6519",
+    "context": "statements is in things. things is in sets.",
+    "theorem": "Therefore, statements is not in sets.",
+    "type": "containment",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6520",
+    "context": "All people are statements. All sets are concepts.",
+    "theorem": "Therefore, all people are concepts.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6521",
+    "context": "All elements in facts are in groups. All elements in groups are in objects.",
+    "theorem": "Therefore, all elements in facts are in objects.",
+    "type": "set_containment",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6522",
+    "context": "All groups satisfy property fast. All things are groups.",
+    "theorem": "Therefore, all things satisfy property fast.",
+    "type": "property_inheritance",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6523",
+    "context": "things is greater than categories. categories is greater than statements.",
+    "theorem": "Therefore, things is greater than statements.",
+    "type": "transitive",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6524",
+    "context": "beings is in statements. statements is in sets.",
+    "theorem": "Therefore, beings is in sets.",
+    "type": "containment",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6525",
+    "context": "groups is subset of principles. principles is subset of entities.",
+    "theorem": "Therefore, groups is subset of entities.",
+    "type": "set_theory",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6526",
+    "context": "facts is in humans. statements is in principles.",
+    "theorem": "Therefore, facts is in principles.",
+    "type": "containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6527",
+    "context": "creatures is in facts. principles is in classes.",
+    "theorem": "Therefore, creatures is in classes.",
+    "type": "containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6528",
+    "context": "All principles are groups. All groups are categories.",
+    "theorem": "Therefore, no principles are categories.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6529",
+    "context": "All things satisfy property slow. All beings are ideas.",
+    "theorem": "Therefore, all beings satisfy property slow.",
+    "type": "property_inheritance",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6530",
+    "context": "animals is in principles. groups is in concepts.",
+    "theorem": "Therefore, animals is in concepts.",
+    "type": "containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6531",
+    "context": "All elements in creatures are in statements. All elements in people are in entities.",
+    "theorem": "Therefore, all elements in creatures are in entities.",
+    "type": "set_containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6532",
+    "context": "collections implies statements. objects implies categories.",
+    "theorem": "Therefore, collections implies categories.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6533",
+    "context": "classes implies things. things implies groups.",
+    "theorem": "Therefore, classes implies groups.",
+    "type": "syllogistic",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6534",
+    "context": "objects is in classes. animals is in ideas.",
+    "theorem": "Therefore, objects is in ideas.",
+    "type": "containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6535",
+    "context": "classes is in categories. categories is in things.",
+    "theorem": "Therefore, classes is not in things.",
+    "type": "containment",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6536",
+    "context": "facts is greater than concepts. concepts is greater than classes.",
+    "theorem": "Therefore, facts is not greater than classes.",
+    "type": "transitive",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6537",
+    "context": "If things is true then people is true. things is true.",
+    "theorem": "Therefore, people is false.",
+    "type": "modus_ponens",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6538",
+    "context": "objects is in facts. classes is in categories.",
+    "theorem": "Therefore, objects is in categories.",
+    "type": "containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6539",
+    "context": "All collections are categories. All categories are sets.",
+    "theorem": "Therefore, no collections are sets.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6540",
+    "context": "All sets are classes. All humans are objects.",
+    "theorem": "Therefore, all sets are objects.",
+    "type": "syllogistic",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6541",
+    "context": "concepts is in mammals. mammals is in statements.",
+    "theorem": "Therefore, concepts is in statements.",
+    "type": "containment",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6542",
+    "context": "All elements in groups are in collections. All elements in objects are in sets.",
+    "theorem": "Therefore, all elements in groups are in sets.",
+    "type": "set_containment",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6543",
+    "context": "concepts implies sets. sets implies classes.",
+    "theorem": "Therefore, concepts does not imply classes.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6544",
+    "context": "All creatures satisfy property total. All beings are creatures.",
+    "theorem": "Therefore, all beings satisfy property total.",
+    "type": "property_inheritance",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6545",
+    "context": "entities is subset of animals. animals is subset of sets.",
+    "theorem": "Therefore, entities is not a subset of sets.",
+    "type": "set_theory",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6546",
+    "context": "items is greater than sets. sets is greater than classes.",
+    "theorem": "Therefore, items is greater than classes.",
+    "type": "transitive",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6547",
+    "context": "things is greater than ideas. facts is greater than sets.",
+    "theorem": "Therefore, things is greater than sets.",
+    "type": "transitive",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6548",
+    "context": "If groups is true then beings is true. groups is true.",
+    "theorem": "Therefore, beings is true.",
+    "type": "modus_ponens",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6549",
+    "context": "All elements in objects are in items. All elements in items are in concepts.",
+    "theorem": "Therefore, some elements in objects are not in concepts.",
+    "type": "set_containment",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6550",
+    "context": "principles is parent of entities. entities is parent of items.",
+    "theorem": "Therefore, principles is not grandparent of items.",
+    "type": "genealogical",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6551",
+    "context": "All elements in entities are in concepts. All elements in concepts are in categories.",
+    "theorem": "Therefore, some elements in entities are not in categories.",
+    "type": "set_containment",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6552",
+    "context": "classes is parent of facts. facts is parent of principles.",
+    "theorem": "Therefore, classes is not grandparent of principles.",
+    "type": "genealogical",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6553",
+    "context": "If collections is true then things is true. people is true.",
+    "theorem": "Therefore, things is true.",
+    "type": "modus_ponens",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6554",
+    "context": "All elements in collections are in animals. All elements in animals are in things.",
+    "theorem": "Therefore, some elements in collections are not in things.",
+    "type": "set_containment",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6555",
+    "context": "animals implies items. items implies mammals.",
+    "theorem": "Therefore, animals does not imply mammals.",
+    "type": "syllogistic",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6556",
+    "context": "All mammals satisfy property happy. All classes are groups.",
+    "theorem": "Therefore, all classes satisfy property happy.",
+    "type": "property_inheritance",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6557",
+    "context": "entities is greater than humans. groups is greater than classes.",
+    "theorem": "Therefore, entities is greater than classes.",
+    "type": "transitive",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6558",
+    "context": "If ideas is true then animals is true. ideas is true.",
+    "theorem": "Therefore, animals is true.",
+    "type": "modus_ponens",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6559",
+    "context": "If facts is true then collections is true. things is true.",
+    "theorem": "Therefore, collections is true.",
+    "type": "modus_ponens",
+    "label": "Uncertain"
+  },
+  {
+    "id": "synthetic_6560",
+    "context": "ideas is subset of sets. sets is subset of animals.",
+    "theorem": "Therefore, ideas is not a subset of animals.",
+    "type": "set_theory",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6561",
+    "context": "creatures is greater than beings. beings is greater than people.",
+    "theorem": "Therefore, creatures is not greater than people.",
+    "type": "transitive",
+    "label": "False"
+  },
+  {
+    "id": "synthetic_6562",
+    "context": "All ideas satisfy property blue. All objects are ideas.",
+    "theorem": "Therefore, all objects satisfy property blue.",
+    "type": "property_inheritance",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6563",
+    "context": "facts implies collections. collections implies beings.",
+    "theorem": "Therefore, facts implies beings.",
+    "type": "syllogistic",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6564",
+    "context": "All elements in beings are in things. All elements in things are in creatures.",
+    "theorem": "Therefore, all elements in beings are in creatures.",
+    "type": "set_containment",
+    "label": "True"
+  },
+  {
+    "id": "synthetic_6565",
+    "context": "principles implies ideas. ideas implies concepts.",
+    "theorem": "Therefore, principles does not imply concepts.",
+    "type": "syllogistic",
+    "label": "False"
+  }
+]
