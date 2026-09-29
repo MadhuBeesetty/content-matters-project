@@ -1,0 +1,61 @@
+[2026-09-26 00:57] OK | eval PID 18210 alive, watcher PID 18223 alive | 155/6000 records | 0 errors | run resumed post-restart, ramping
+[2026-09-26 02:30] OK | all 3 procs alive | 832/6000 (13.9%) | 0 errors | 8.9 prob/min (beats 7.5s/gen proj) | ETA ~12:15 PM
+[2026-09-26 03:30] OK | all 3 procs alive | 1346/6000 (22.4%) | 0 errors | baseline 1328/1500 (88%) | 8.8 prob/min | ETA ~12:25 PM
+[2026-09-26 04:30] OK | all procs alive | 1874/6000 (31.2%) | 0 errors | BASELINE DONE: 95.5% (1433/1500) | control 95.9% in progress | ETA ~12:20 PM
+[2026-09-26 05:30] OK | all procs alive | 2403/6000 (40%) | 0 errors | control 96.0% (855/891), 60% through | 8.8 prob/min steady | ETA ~12:20 PM
+[2026-09-26 06:30] OK | all procs alive | 2941/6000 (49%) | 0 errors | control 96.3% (1376/1429), ~8min left | econst next | ETA ~12:20 PM
+[2026-09-26 07:30] OK | all procs alive | 3464/6000 (58%) | 0 errors | CONTROL DONE: 96.3% | econst running 97.4% (446/458) | ETA ~12:20 PM
+[2026-09-26 08:30] OK | all procs alive | 3960/6000 (66%) | 0 errors | econst 97.0% (925/954), 64% through | 8.7 prob/min | ETA ~12:25 PM
+[2026-09-26 09:30] OK | all procs alive | 4464/6000 (74%) | 0 errors | econst finishing 96.3% (1404/1458), ~5min left | cdiag last | ETA ~12:30 PM
+[2026-09-26 10:22] OK | stage A running | 4924/6000 (82%) | 0 errors | cdiag 95.5% (405/424) | watcher armed for phi4 stage | ETA ~12:25 PM
+[2026-09-26 11:22] OK | stage A 5418/6000 (90%) | 0 errors | cdiag 96.2% (883/918) | all procs alive | ETA ~12:28 PM
+[2026-09-26 12:22] OK | stage A 5918/6000 (98.6%) - ~10 min to done | 0 errors | final: 95.5/96.3/96.4/95.8 | watcher armed | phi4 stage imminent
+[2026-09-26 14:29] OK | stage B phi4 328/1000 (33%) | baseline DONE 88.7% (219/247) | control 92.3% early | 3 errors (0.9%, under threshold, watching) | ETA ~6:15 PM
+[2026-09-26 15:29] OK | stage B phi4 506/1000 (51%) | CONTROL DONE 93.1% vs baseline 88.7% (+4.4pt, format effect to verify at completion) | errors 6 (1.2%, under threshold) | ETA ~6:15 PM
+[2026-09-26 16:29] OK | stage B phi4 682/1000 (68%) | econst 87.7% (157/179) - BELOW control 93.1%, watch | errors 9 (1.3%) | ETA ~6:15 PM
+[2026-09-26 17:29] OK | stage B phi4 857/1000 (86%) | ECONST DONE 89.4% | cdiag running 84.9% (90/106) early | errors 11 (1.3% stable) | ETA ~6:20 PM
+[2026-09-26 18:29] OK | STAGE C running (watcher exec'd into corpus run, PID 64285) | control 50/4966, reward 0.884 (saturation as predicted) | first chunk ~11min incl model load; rate next check
+[2026-09-26 19:29] OK | stage C corpus: control 600/4966 | rate 8.4 rows/min (steady-state, fast) | reward 0.892 (saturation, expected) | total ETA ~29 hrs -> Sun ~1 AM
+[2026-09-26 20:29] OK | stage C: control 1100/4966 (22%) | 8.4 rows/min steady | reward 0.891 | total ETA ~27 hrs -> Sun ~midnight
+[2026-09-26 21:29] OK | stage C: control 1600/4966 (32%) | 8.4 rows/min steady | reward 0.891 | ETA Sun ~midnight
+[2026-09-26 22:29] OK | stage C: control 2150/4966 (43%) | 8.6 rows/min | reward 0.890
+[2026-09-27 00:04] OK | stage C: control 3650/4966 (73%) | 17.0 rows/min post-speedup (2x confirmed) | reward 0.882 | stage-D watcher alive | ETA Sun ~11 AM
+[2026-09-27 01:03] OK | stage C: control 4700/4966 (95%), ~15min left -> econst | 17.2 rows/min | reward 0.881 | ETA Sun ~11 AM
+[2026-09-27 02:03] OK | CONTROL DONE 4966/4966 reward 0.881 | econst 750/4966 (15%) reward 0.894 - NO collapse vs nemo's 0.020 | 17.4 rows/min | ETA ~10:50 AM
+[2026-09-27 03:03] OK | stage C: econst 1800/4966 (36%) reward 0.892 | 17.5 rows/min | ETA ~10:50 AM
+[2026-09-27 04:03] OK | stage C: econst 2800/4966 (56%) reward 0.893 | ~17 rows/min | ETA ~11 AM
+[2026-09-27 05:03] OK | stage C: econst 3850/4966 (78%) reward 0.894 | 17.5 rows/min | ETA ~10:50 AM
+[2026-09-27 06:03] OK | stage C: econst 4850/4966 (98%), ~7min left -> cdiag (last) | reward 0.893 no-collapse confirmed | ETA ~10:55 AM
+[2026-09-27 07:03] OK | ECONST DONE 4966/4966 reward 0.893 | cdiag 900/4966 (18%) reward 0.856 | 17 rows/min | ETA ~11 AM
+[2026-09-27 08:03] OK | stage C: cdiag 1950/4966 (39%) reward 0.856 | 17.5 rows/min | ETA ~10:55 AM
+[2026-09-27 09:03] OK | stage C: cdiag 3000/4966 (60%) reward 0.855 | 17.5 rows/min | ETA ~10:55 AM
+[2026-09-27 10:03] OK | stage C: cdiag 4000/4966 (81%) reward 0.856 | ~16 rows/min | ETA ~11:05 AM
+[2026-09-27 11:03] MILESTONE | STAGE C COMPLETE: 4966x3, rewards 0.881/0.893/0.856 | STAGE D qwen2.5:32b LAUNCHED, 52 records, ~15 prob/min (faster than est) | ETA ~1:15 PM
+[2026-09-27 12:03] OK | stage D qwen 1016/2000 (51%) in 1hr = 16.9/min | 0 errors | baseline 96.2% DONE, control 95.8% DONE - matches deepseek (non-reasoning 32B ~= reasoning 14B!) | ETA ~1 PM
+[2026-09-27 13:03] OK | stage D qwen 1737/2000 (87%) | cdiag 94.9% (225/237) converging up | 0 errors | ETA ~1:27 PM
+[2026-09-27 13:26] PIPELINE COMPLETE | qwen final: 96.2/95.8/94.0/95.4 all McNemar n.s. | all 4 stages done, RESULTS.md regenerated
+[2026-09-27 15:16] RETRACTION | nemo corpus 'collapse' (0.684/0.020) was a serving-stack artifact; same prompts under correct serving read 0.897/0.900. GBNF verdict: no collapse to decompose; constrained nemo=55.2% = its baseline | RESULTS.md corrected
+[2026-09-27 15:53] OK | N1 phi4 continuation 1129/2000 (resumed correctly: 250x3 done, baseline filling) | 3.2 prob/min | errors 15 (1.3%, stable) | ETA ~8:25 PM then deepseek-hard
+[2026-09-27 16:53] OK | N1 phi4 1301/2000 (65%) - baseline 500/500 done, control filling | 2.9/min | errors 1.2% stable | ETA ~9 PM, hard-set ~1 AM
+[2026-09-27 17:53] OK | N1 phi4 1500/2000 (75%) - control 500/500 done, econst filling | 3.3/min | errors 1.2% | ETA ~8:25 PM
+[2026-09-27 19:48] OK | N1 phi4 1869/2000 (93%) - cdiag 369/500, ~42min left | both watchers alive | N2 starts ~8:30 PM
+[2026-09-27 23:10] EVENT | machine slept ~19:50-23:05 (battery) - all processes resumed cleanly from checkpoints, no data loss | caffeinate armed
+[2026-09-28 00:49] OK | N2 deepseek-hard 498/2000 (25%) | 93.4% - CEILING NOT BROKEN (True 99.4/False 100/Uncertain 79.5) | 3-5 hops insufficient for strong models; xhard (6-8 hop) likely needed | 9/min, ETA ~3:30 AM
+[2026-09-28 01:49] OK | N2 848/2000 (42%) - baseline done 500/500 | acc 93.7% (ceiling verdict holding) | ~6.5/min this hour | ETA ~4:45 AM
+[2026-09-28 02:49] OK | N2 1208/2000 (60%) - control done, econst filling | acc 94.7% | 6/min | ETA ~5 AM
+[2026-09-28 03:49] OK | N2 1544/2000 (77%) - 3 conds done, cdiag filling | per-cond: base 93.4/ctrl 95.0/econst 96.0 | ETA ~5:10 AM
+[2026-09-28 04:49] OK | N2 1902/2000 (95%) - cdiag 402/500, ~18min left | N3 nemo starts ~5:10 AM
+[2026-09-28 05:50] MILESTONE | N2 deepseek-hard DONE: 93.4/95.0/96.0/93.2 (econst +2.6 over base, real separation below ceiling) | N3 nemo DONE: 67.0/66.3/66.8/69.6 but 17% unparsed (format failures - nemo's weakness) | N4 phi3.5 at 999/2000, ~100/min
+[2026-09-28 06:49] MILESTONE | N4 phi3.5 DONE: 76.3/74.7/79.9/77.1 (econst +3.6 over base - weak model benefits from constraint framing!) | N5 qwen-hard 441/2000, ~9/min, ETA ~9:40 AM
+[2026-09-28 07:49] OK | N5 qwen-hard 1000/2000 (50%) - base+control done | acc 93.8% (same ceiling as deepseek 93.4) | 9.3/min | ETA ~9:35 AM
+[2026-09-28 08:49] OK | N5 qwen-hard 1502/2000 (75%) - econst done, cdiag starting | 0 errors | ETA ~9:50 AM, magistral next
+[2026-09-28 09:49] OK | N5 qwen-hard 1961/2000 (98%) - ~5min left | N6 magistral starts ~9:55 AM
+[2026-09-28 11:01] INCIDENT+FIX | magistral 71% timeout errors at 12-way/300s -> relaunched 6-way/600s (first gen 202s OK) | FIXED: resume skipped error rows (now retried) + summarize() tag bug overwrote easy canonicals with hard numbers (restored from archive, hard summaries rewritten with _hard tags) | RESULTS.md correct (7 sections) | watcher queue_afternoon.sh armed
+[2026-09-28 11:56] REDESIGN | magistral+qwq moved hard->easy set: hard needs 550s+/gen (infeasible 15-25hrs); easy is the right comparator for the phi4 dose-response anyway | magistral-easy running clean (0 errors, 197s/gen, ETA ~6.8hrs) | watcher queue_final.sh armed
+[2026-09-28 12:39] FIX2 | magistral still 32% errors at 8-way/600s (cap-hitter tail) -> 6-way/900s; resumed 13 done, 6 error rows auto-retrying | ETA ~7-9 hrs
+[2026-09-28 13:22] DECISION | user approved multi-day full runs (30+ hrs OK) | magistral continues at 6-way/900s (0 errors post-fix) | qwq inherits same config via rewritten watcher (PID 14551) | ETAs: magistral ~Tue evening, qwq ~Thu
+[2026-09-28 13:48] FIX3 | magistral 14% errors + 0.20/min (head-of-line blocking on 3072-tok cap-hitters) -> 4-way/900s: per-gen ~420s expected, target ~0.5/min (~32 hrs) | resumed 31 done, 219 pending
+[2026-09-28 14:48] FIX3-RESULT | 4-way: 0.29/min (vs 0.20), median gen 360s, 2 errors — improved but physics-bound: ~24 tok/s aggregate for 24B = ~40 hrs for magistral regardless of config | DECISION: stop tuning, run clean at 3072 tokens; num_predict cut would cost ~40% unparsed (median gen is ~2100 tok) | qwq at completion decision: N=250 (~52hrs) vs N=125
+[2026-09-28 15:48] OK+PLAN | magistral 55/1000, acc 87.3%, 0.25/min | 20% timeout errors will be mopped by auto pass-2 at completion (watcher v3) | honest ETAs: magistral ~Wed AM, qwq ~Thu/Fri
+[2026-09-28 16:48] FIX4 | magistral 65-hr ETA broken via num_predict 3072->1536 (cap-hitters finish ~250s instead of timing out at 900s); same cap all 4 conditions preserves within-model validity; unparsed becomes counted data; qwq inherits config (watcher v4)
+[2026-09-28 18:27] DROPPED magistral:24b — measured isolated 2.7-5.0 tok/s on fresh server (100% GPU): ~100+ hrs AND both probes hit token cap with no ANSWER (would be ~100%% unparsed). Mistral-arch/Metal inefficiency, not config. Its 74 records kept in full_eval_magistral_24b.jsonl as fragment. | qwq probe running (Qwen arch — family runs fine here)

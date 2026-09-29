@@ -1,0 +1,3514 @@
+{
+  "model": "deepseek-r1:14b",
+  "dataset": "synthetic_hard",
+  "metric": "answer-level accuracy vs gold label",
+  "total": 500,
+  "correct": 466,
+  "wrong": 33,
+  "unparsed": 0,
+  "errors": 1,
+  "accuracy": 0.9338677354709419,
+  "elapsed_seconds": 56417.4,
+  "records": [
+    {
+      "id": "hard_3002",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain: classes \u2192 mixtures \u2192 regions \u2192 minerals \u2192 domains. Therefore, classes imply domains.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3003",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows because people are subsets of sectors, which are subsets of alloys, which are subsets of statements, and statements are subsets of ideas. Thus, people are a subset of ideas.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3009",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a chain where creatures imply people, who imply groups, sectors, regions, and finally fields. Each step is a direct implication, making creatures imply fields certain.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3004",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows as items imply people, who imply collections, which lead to groups, and finally to classes. Each implication is supported by the premises, forming a chain that leads to the conclusion.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3006",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish that minerals are contained in principles, which are contained in animals, which are contained in organisms, which are contained in ideas. Therefore, minerals are indeed contained in ideas.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3007",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a direct chain: items \u2192 alloys \u2192 entities \u2192 metals \u2192 organisms \u2192 people. Therefore, items do imply people, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3010",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of subsets leading from sets to minerals, making the conclusion true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3011",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because the premises establish that zones are subsets of classes, making the statement \"no zones are classes\" incorrect.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3001",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish a chain from creatures to realms to metals but do not connect to fields. Without a direct link, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3014",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that humans are subsets of people, which are subsets of mammals, which are subsets of items. Therefore, humans are indeed subsets of items, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3016",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises as each step in the reasoning is supported without any gaps. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3005",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is uncertain because while classes are subsets of people via statements and artifacts, there is no direct link establishing people as subsets of regions. Thus, the relationship between classes and regions remains unclear.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3000",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion introduces \"sets,\" which are not mentioned in the premises. While the premises establish a chain linking collections, clusters, concepts, and ideas, \"sets\" are not explicitly defined or connected to these terms. Without explicit information about sets, we cannot determine if they are "
+    },
+    {
+      "id": "hard_3015",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically from the premises. Since all humans are statements, and all statements are classes, and all classes are things, it follows that all humans are things.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3019",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically through the chain of premises, linking facts to ideas. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3018",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a logical chain: claims \u2192 things \u2192 clusters \u2192 creatures. Since each implication is valid, claims imply creatures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3012",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically through the chain of subset relations provided. Things are contained in collections, which are in creatures, leading to humans, and finally to ideas.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3017",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that clusters are subsets of domains, making the conclusion that no clusters belong to domains false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3013",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention mammals, making it impossible to determine if all mammals are claims. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3020",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"zones is contained in objects\" cannot be determined as true because there is no chain connecting zones to objects through the given premises. Zones are only known to be contained in humans, and no premises link humans to objects. Therefore, the conclusion is uncertain.\n\nANSWER: Uncer"
+    },
+    {
+      "id": "hard_3025",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that domains are subsets of animals, which are subsets of fields, which are subsets of concepts, which are subsets of zones. Therefore, domains are subsets of zones, making the conclusion that \"domains is not a subset of zones\" false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3022",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that minerals are contained within mammals, which are contained within alloys, which in turn are contained within sectors. Therefore, minerals are indirectly contained within sectors, making the conclusion that minerals are not contained in sectors false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3023",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion states that artifacts are not contained in things. According to the premises, artifacts are contained within mammals, which are contained in objects, which in turn are contained in things. Therefore, artifacts are indeed contained in things, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3028",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not provide any information about \"people,\" making it impossible to determine if categories are contained in people. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3021",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises. All organisms are classes, which are mammals, items, fields, and ultimately humans. Therefore, all organisms are humans.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3008",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"all things are metals\" cannot be definitively proven from the premises. While the premises establish that realms are metals, there is no explicit or implicit connection linking things to realms or metals. Therefore, the conclusion remains uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3029",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain connecting classes to statements. Since classes are subsets of animals, which belong to facts, which belong to collections, which belong to statements, classes are indeed part of statements. Therefore, the conclusion that no classes belong to statements is false.\n\nANSW"
+    },
+    {
+      "id": "hard_3024",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not provide a direct link between ideas (which are objects) and principles. While items and entities are both principles, there's no information connecting objects to principles, making the conclusion uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3027",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be directly supported by the premises. While entities are humans, and humans are elements, there is no information linking elements to minerals. Thus, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3031",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises because ideas are contained in mixtures, which are in mammals, and mammals are in facts. Thus, ideas are indeed contained in facts.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3030",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all clusters are sectors, which are things, and all things are animals, making clusters animals. The conclusion incorrectly claims no clusters are animals, contradicting the premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3026",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where regions imply zones through artifacts and ideas. Therefore, the conclusion that regions do not imply zones is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3032",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises connect minerals to regions and principles, but they don't provide sufficient information to conclude that all things are compounds. The conclusion is not supported by the premises.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3035",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "Based on the premises, elements are a subset of realms, which are a subset of collections, sets, zones, and finally categories. Therefore, elements are indeed a subset of categories.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3040",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain: classes \u2192 elements \u2192 collections \u2192 facts. Therefore, classes imply facts. The other premises are irrelevant.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3033",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain where collections are subsets of domains, which are subsets of categories, which are subsets of items. Therefore, every collection belongs to items.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3037",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion that all clusters are domains follows directly from the premises. Clusters are artifacts (premise 3), artifacts are classes (premise 6), and classes are domains (premise 2). Therefore, the conclusion is true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3042",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically through the chain of subsets and implications provided in the premises. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3039",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a connection between zones (where mixtures are) and fields. Therefore, we cannot conclude that mixtures are contained in fields.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3041",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows by chaining the containments: claims \u2286 classes \u2286 beings \u2286 artifacts \u2286 facts \u2286 mixtures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3036",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "All humans are domains (premise 6), and all domains are ideas (premise 1). Since all ideas are clusters (premise 2), it follows that all humans are clusters. The other premises about zones, classes, principles, and claims do not affect this conclusion.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3038",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that mixtures are a subset of organisms, which are a subset of domains, and domains are a subset of items. Therefore, mixtures are a subset of items. The conclusion claims the opposite, which contradicts the premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3047",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is supported by the chain of premises linking claims to animals to creatures to groups, with the other premises about sets being irrelevant here.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3034",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion \"no regions are groups\" is false because the premises establish that regions are a subset of groups.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3043",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows directly through the premises: mammals \u2192 concepts \u2192 statements \u2192 elements \u2192 humans \u2192 people. Each step is supported by the given premises.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3048",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion introduces the term \"principles,\" which is not mentioned in any of the premises. Since there is no logical connection provided between \"principles\" and \"objects\" based on the given premises, the conclusion cannot be determined as True or False. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3050",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is supported by the chain of containments: realms are in entities, which are in clusters, which are in compounds, which are in claims. Thus, realms are contained in claims.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3045",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a connection between classes and mammals. While claims are mammals and classes are things, there is no link provided between things and mammals. Thus, the conclusion cannot be determined as true or false.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3046",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain of subset relations leading to minerals being a subset of realms, directly contradicting the conclusion. Therefore, the conclusion is False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3053",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "To determine if \"mixtures is a subset of beings\" is True, False, or Uncertain, we follow the chain of relationships:\n\n- Mixtures \u2282 Compounds (Premise 4)\n- Compounds \u2282 Domains (Premise 5)\n- Domains \u2282 Facts (Premise 3)\n- Facts \u2282 Artifacts (Premise 8)\n- Artifacts \u2282 Beings (Premise 1)\n\nSince each step i"
+    },
+    {
+      "id": "hard_3049",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be definitively determined as true or false because the premises do not establish a direct or indirect link between statements and concepts. Statements are subsets of collections, but the relationship between collections and concepts remains unspecified.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3054",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Clusters are a subset of creatures, which are a subset of compounds, which are a subset of ideas, which are a subset of humans, which are a subset of artifacts. Therefore, all clusters belong to artifacts, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3057",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of inclusion and implication leading from domains to humans. Therefore, the conclusion is supported.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3055",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of subset relationships leading from classes to artifacts. Therefore, the conclusion is necessarily true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3056",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain: statements \u2286 minerals \u2286 creatures \u2286 people \u2286 realms \u2286 clusters. Thus, statements must be a subset of clusters.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3052",
+      "label": "Uncertain",
+      "predicted": "True",
+      "correct": false,
+      "response": "The premises establish that every claim is an element (Premise 5), and every element belongs to collections (Premise 1). Additionally, every thing, including elements, belongs to classes (Premise 3). Therefore, since claims are elements and all elements are in classes, claims must belong to classes."
+    },
+    {
+      "id": "hard_3051",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "Based on the premises, every claim is linked through a chain to compounds, making the conclusion true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3058",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion incorrectly claims that organisms do not imply people, but according to the premises, organisms imply humans, which in turn imply domains, leading to people. Thus, the conclusion is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3063",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where clusters imply elements, which in turn imply items, and finally artifacts. Therefore, clusters do imply artifacts, making the conclusion that they do not imply artifacts false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3064",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows through the chain of implications: people \u2192 organisms \u2192 mixtures \u2192 facts \u2192 clusters. Each step is supported by the premises.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3044",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish relationships between various terms, but they do not provide a direct or indirect link between \"statements\" (which are sectors) and \"concepts.\" Therefore, it is uncertain whether all statements are concepts.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3062",
+      "label": "Uncertain",
+      "predicted": "True",
+      "correct": false,
+      "response": "The conclusion directly follows from the premises. Since all humans are people, and all people are regions, all humans must be regions.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3059",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises connect classes and mammals to regions, but there's no direct link established between sectors and regions. Without information about sectors' relation to regions, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3065",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion incorrectly claims no alloys are elements, but premises show all alloys are elements. Therefore, the conclusion is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3061",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish that entities, sectors, artifacts, and ideas are all mammals, but they do not cover all organisms. Therefore, it's uncertain if all organisms are mammals.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3069",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that categories are subsets of metals, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3067",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows directly from the premises. Categories lead to realms, which lead to mixtures, then to entities, and finally to animals. Therefore, categories imply animals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3068",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain linking statements to metals through the categories claims, sets, and beings. Since all statements are claims, which are sets, and all sets are beings, and all beings are metals, it logically follows that all statements are metals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3070",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where facts are contained in mixtures, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3071",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises, as objects are part of domains, which are mammals belonging to classes.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3060",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises. Since all animals are zones, all zones are ideas, and all ideas are creatures, it follows that all animals are creatures. The other premises do not contradict or affect this chain of reasoning.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3074",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain showing that domains are subsets of collections through intermediaries like sectors, objects, and concepts.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3076",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention creatures, so we cannot determine if all creatures are items.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3078",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "Groups are subsets of mixtures, which are subsets of fields, which are subsets of categories. Therefore, groups are subsets of categories. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3066",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not establish a logical connection from zones to statements. While zones imply ideas, there is no further link between ideas and the other premises that could lead to statements. Therefore, the conclusion is not supported.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3073",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where domains are subsets of zones, which are subsets of classes, and so on, ultimately making domains a subset of organisms. Therefore, the conclusion that domains is not a subset of organisms is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3072",
+      "label": "Uncertain",
+      "predicted": "True",
+      "correct": false,
+      "response": "The premises establish that humans are objects, which are statements, and that all beings are categories. Since humans are beings, they fall under the category classification. The other premises about compounds and realms don't affect this conclusion.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3083",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically through the chain of premises, connecting people to metals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3081",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that categories are a subset of principles, directly contradicting the conclusion that no categories belong to principles.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3079",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Elements are contained in organisms, which are part of objects, which are part of domains, which are part of items, and items are contained in facts. Therefore, elements are ultimately contained in facts, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3075",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion that \"people is contained in things\" cannot be directly supported by the premises provided. The premises establish that people are contained in artifacts, which are within humans, and then in collections, but there is no direct or indirect link provided that connects collections or hu"
+    },
+    {
+      "id": "hard_3082",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises. Animals are contained in things, which are contained in metals, which are contained in creatures, which are contained in zones, which are contained in principles. Therefore, animals are indeed contained in principles.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3086",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is supported by the premises as artifacts are contained in minerals through the chain of subsets.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3084",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not establish a connection between clusters and items. Clusters are artifacts, which are zones, but there is no information linking zones or artifacts to items. The only connection to items is through ideas (premise 5), but clusters are not shown to be related to ideas. Therefore, th"
+    },
+    {
+      "id": "hard_3088",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that regions are contained in facts, which are contained in entities, which are contained in metals, which are contained in statements. Therefore, regions are ultimately contained in statements, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3089",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of implications leading from classes to alloys. Therefore, the conclusion that classes imply alloys is true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3092",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because statements are a subset of principles through the chain of subsets provided.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3080",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish that metals are things, things are beings, and beings are humans. Thus, every metal belongs to humans.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3093",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises. Beings are contained in metals, which are in groups, which are in regions. Therefore, beings are contained in regions.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3087",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not establish a direct or indirect connection between statements and classes. Premise 1 links statements to zones, and Premise 2 links ideas to classes, but there is no premise stating that zones are classes or that all zones fall under classes. Therefore, the conclusion cannot be lo"
+    },
+    {
+      "id": "hard_3091",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that categories are contained within things, which are in turn contained within minerals, and minerals are contained within items. Thus, categories are ultimately contained in items. The conclusion claims the opposite, making it false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3095",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain: people \u2192 humans \u2192 sectors \u2192 sets \u2192 elements. Each step logically follows, leading to the conclusion that people are contained in elements.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3097",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all concepts are items, making the conclusion that no concepts belong to items false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3103",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises by connecting entities through ideas, clusters, regions, and finally to elements.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3102",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is False because the premises imply that realms are part of sets.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3099",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is False because the premises establish that fields are subsets of regions.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3100",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain showing that statements are subsets of principles, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3085",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion depends on whether statements are collections, which isn't specified. Since the premises don't establish this link, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3096",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that metals are not contained in claims is false because the premises establish that metals are contained in claims through the chain of subsets.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3098",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Based on the premises, regions are a subset of creatures, which are part of clusters, artifacts, entities, and ultimately things. Therefore, regions are a subset of things, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3094",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish that humans are regions, but there is no direct or indirect link provided between regions and categories. Therefore, it is uncertain whether all people are categories.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3101",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where beings are contained in claims, which are in alloys, realms, principles, and finally compounds. Thus, beings are contained in compounds, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3106",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows directly through subset transitivity: zones \u2286 animals \u2286 claims \u2286 minerals \u2286 organisms. Therefore, zones are a subset of organisms.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3108",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a chain: facts \u2192 claims \u2192 animals \u2192 sectors. Therefore, facts is contained in sectors.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3110",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not provide a direct link between ideas and people. Ideas are subsets of elements, which are subsets of mammals, but there's no connection to people. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3105",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion that \"every sets belongs to objects\" cannot be directly supported by the premises. While sets are animals (premise 2) and animals belong to facts (premise 4), and facts belong to mixtures (premise 6), there is no link from mixtures to objects. Alloys are objects (premise 5), but mixtu"
+    },
+    {
+      "id": "hard_3104",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises form a chain where sectors imply artifacts, which imply mammals, which imply sets, which imply claims. Therefore, sectors do imply claims, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3111",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that entities are a subset of minerals, which are a subset of groups, which are a subset of concepts. Therefore, all entities are concepts. The conclusion incorrectly states that no entities are concepts, which contradicts the premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3114",
+      "label": "Uncertain",
+      "predicted": "True",
+      "correct": false,
+      "response": "The premises establish a chain from principles to realms: All principles are collections (P \u2192 C), and all clusters are realms (C \u2192 R). Therefore, all principles are realms. The other premises don't affect this conclusion.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3107",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of subset relationships leading from animals to items. Therefore, the conclusion is True.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3109",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is not supported by the premises because there is no direct or indirect connection established between entities and classes. While principles belong to classes, there is no link between entities and principles or between alloys and classes. Therefore, the conclusion remains uncertain."
+    },
+    {
+      "id": "hard_3113",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Based on the premises, collections imply animals, which imply beings, and beings imply items. Therefore, collections do imply items, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3117",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"concepts implies sets\" is true because each premise directly connects the concepts to sets through a chain of implications.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3115",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"classes imply statements\" cannot be directly supported by the premises. There is no logical link provided between classes and statements. The premises establish relationships among classes, entities, domains, humans, sets, and compounds, but they do not connect any of these to statem"
+    },
+    {
+      "id": "hard_3090",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because statements do belong to zones based on the premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3120",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "creatures \u2192 fields (premise 1), fields \u2192 metals (premise 3), metals \u2192 groups (premise 6), groups \u2192 compounds (premise 5). Therefore, creatures imply compounds through the chain. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3121",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically from the premises. Since every claims is a subset of concepts, which are part of facts, classes, domains, and finally elements, the conclusion holds.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3119",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows through a chain of premises leading from humans to categories. Humans are contained in items, which are in organisms, which are in claims, which are in principles, and finally in categories. Therefore, the conclusion is true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3116",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention \"animals\" directly. While \"creatures\" are mentioned, there's no link between \"creatures\" and \"animals.\" Therefore, the conclusion about \"animals\" being a subset of entities is not supported by the premises. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3118",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of implications leading from alloys to sectors. Since alloys are animals, animals are in mixtures, and mixtures belong to sectors, every alloy must belong to sectors.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3122",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises, as all mammals are connected through a chain of subsets leading to mixtures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3125",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is supported by the logical chain: minerals are entities, which are claims, and claims are metals. There's no conflicting information.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3112",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because the premises imply that all mixtures are regions, contradicting the conclusion that no mixtures are regions.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3126",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be determined as regions are not mentioned in any premises, making the implication uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3131",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises as groups are humans, humans are organisms, and organisms are creatures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3129",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion incorrectly states that artifacts do not imply facts. However, based on the premises, artifacts imply mixtures, which lead to objects, sets, elements, and ultimately facts. Therefore, the conclusion is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3128",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion \"objects does not imply facts\" is false because objects imply animals, which imply sectors, which imply facts. \n\nANSWER: False"
+    },
+    {
+      "id": "hard_3123",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain: alloys \u2192 regions \u2192 classes \u2192 entities. Therefore, alloys do imply entities, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3124",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is uncertain because while clusters are beings, there's no premise linking beings to sets or fields, making it impossible to definitively conclude that all clusters are fields.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3127",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where elements are part of minerals, which are part of creatures, which are part of items. Therefore, elements do belong to items, making the conclusion that \"no elements belong to items\" false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3130",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all items are sectors, contradicting the conclusion that no items are sectors. Therefore, the conclusion is False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3133",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is uncertain because there is no direct or indirect link between metals and fields based on the given premises.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3139",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all artifacts are mammals, which are domains, clusters, and ultimately statements. Therefore, the conclusion that no artifacts are statements is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3137",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain linking sectors to categories, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3132",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of inclusion leading from sets to mixtures. Sets are in statements, statements in fields, fields in artifacts, and artifacts in mixtures. Therefore, sets belong to mixtures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3135",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises through a chain of subset relationships: items \u2192 people \u2192 mixtures \u2192 groups \u2192 categories. Hence, items are contained in categories.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3134",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Based on the premises, sets are contained in claims, which are contained in clusters, compounds, people, and ultimately humans. Therefore, the conclusion that sets are not contained in humans is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3140",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows the chain of premises, confirming that every elements belongs to metals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3138",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The conclusion that \"all fields are elements\" cannot be supported by the given premises. The premises establish relationships between classes, ideas, mixtures, groups, domains, and regions, but there is no information linking fields to elements. Therefore, the conclusion is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3136",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that sectors are subsets of organisms, which are subsets of categories, and ultimately, categories are subsets of statements. Therefore, sectors are subsets of statements, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3141",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows directly from the premises: items imply mixtures, which imply facts, which in turn imply clusters. Therefore, the conclusion is true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3144",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is supported by the premises through a chain of subset relationships. Collections are subsets of items, which are subsets of sets, and sets are subsets of things. Therefore, collections are a subset of things.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3143",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a chain where entities are regions, which are facts, which are ideas, which are compounds, and compounds are zones. All connections are direct and without exceptions, leading to the conclusion.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3145",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises establish a chain from regions to mixtures to minerals to realms but do not connect concepts (belonging to humans) to realms. Since there's no link between humans and realms, the conclusion is not supported.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3142",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises as entities are subsets of clusters, which are subsets of principles, sets, creatures, and ultimately mixtures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3146",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Based on the premises, minerals imply regions, which imply groups, and groups imply fields. Therefore, minerals do imply fields, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3152",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "Based on the premises, mixtures are a subset of entities, which are themselves subsets of ideas, and ideas are subsets of things. Therefore, mixtures are a subset of things.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3147",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because entities are a subset of principles based on the given premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3148",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be definitively determined as true because there is no information linking clusters (where compounds are contained) to creatures. Therefore, it's uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3149",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because all facts are regions based on the premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3155",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion \"no entities are regions\" is False because entities are subsets of domains, which are collections, realms, statements, and ultimately regions.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3157",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is supported by the premises through the chain: humans \u2282 groups \u2282 ideas \u2282 regions.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3077",
+      "label": "Uncertain",
+      "predicted": null,
+      "correct": false,
+      "response": ""
+    },
+    {
+      "id": "hard_3156",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"claims is contained in organisms\" is True because the premises establish a chain of containment leading from claims to organisms.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3154",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish that mixtures are objects and sets are groups, but they do not connect objects to sets. Without this link, we cannot conclude that mixtures belong to groups.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3159",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion refers to \"clusters,\" which are not mentioned in any of the premises. Since there is no information about clusters in the premises, we cannot determine whether clusters are a subset of collections. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3161",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises as claims are subsets of classes, which are subsets of categories, which are subsets of facts, which are subsets of minerals. Thus, claims are a subset of minerals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3153",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain of implications leading from items to realms. Since items imply things, which imply animals, concepts, statements, and finally realms, the conclusion that items do not imply realms is contradicted by the premises. Therefore, the conclusion is False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3164",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"compounds imply zones\" cannot be directly supported by the premises provided. While compounds lead to principles, mixtures, and concepts, there's no link to categories or zones. Thus, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3160",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The conclusion \"artifacts imply beings\" cannot be directly supported by the premises. While artifacts imply facts, which lead to alloys and then fields, there's no connection from fields to beings. Therefore, the conclusion is False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3151",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"beings implies items\" cannot be directly supported by the premises. While beings imply things (Premise 5), there is no chain connecting things to items. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3158",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that statements are contained in objects, which are in principles, which are in mixtures, which are in mammals. Thus, statements are contained in mammals, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3163",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Categories is a subset of groups, which is a subset of ideas, which is a subset of metals, which is a subset of beings. Therefore, categories are indeed a subset of beings, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3165",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a connection between realms (to which objects belong) and people. Therefore, it's uncertain whether all objects are people.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3168",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain of implications: clusters \u2192 humans \u2192 statements \u2192 people. Therefore, clusters do imply people, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3169",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"realms implies facts\" is true because realms lead to classes, which lead to people, regions, metals, and finally facts through the given premises.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3167",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "All categories are collections, which are clusters, which are items, which are sectors, which are statements. Therefore, all categories are statements.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3170",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because the premises establish that all statements are classes. \n\nANSWER: False"
+    },
+    {
+      "id": "hard_3173",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises lead to the conclusion that all items are ideas, making the given conclusion (\"no items are ideas\") false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3174",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct or indirect connection between metals and minerals. Metals are a subset of entities, which are a subset of principles, but there is no link between principles or entities and minerals. The only connection to minerals is through people, but that doesn't relate t"
+    },
+    {
+      "id": "hard_3175",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises establish a chain from elements to animals but do not connect to sets. No premise links elements or any related term to sets, making the conclusion unsupported.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3171",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is uncertain because there is no direct or indirect link established between \"claims\" and \"clusters\" in the given premises. While \"claims\" are subsets of \"sets,\" and \"statements\" are subsets of \"clusters,\" there is no premise connecting \"sets\" to \"clusters.\" Therefore, we cannot deter"
+    },
+    {
+      "id": "hard_3179",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention \"fields,\" so we cannot determine if they are a subset of groups.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3176",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain: domains \u2192 minerals \u2192 beings \u2192 claims \u2192 entities. Each step is directly implied by the premises, so domains imply entities.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3178",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain where regions are subsets of mammals, which are subsets of ideas, principles, and finally collections. Thus, regions are contained in collections.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3166",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be definitively determined as True or False because the premises do not explicitly link clusters to collections. While concepts are contained in clusters, the relationship between clusters and collections is not defined, making the conclusion uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3181",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain leading from regions to humans, making the conclusion that regions are not contained in humans false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3177",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish that minerals are entities and thus zones, but there's no direct link between zones and domains. Since fields being domains doesn't imply zones are domains, the conclusion that all minerals are domains isn't supported.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3180",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Based on the premises, artifacts are a subset of statements, which are subsets of mixtures, categories, metals, and ultimately items. Therefore, the conclusion that artifacts is not a subset of items is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3150",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The conclusion does not follow from the premises because there is no direct or indirect link establishing that principles are sets. While principles are connected to elements and creatures, and elements are creatures, which are alloys, there is no premise connecting alloys or any related category to"
+    },
+    {
+      "id": "hard_3182",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises through a chain of subsets and belonging. Entities are people (Premise 5), which belong to claims (Premise 1), which belong to elements (Premise 6), which belong to clusters (Premise 3). Thus, every entity belongs to clusters.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3172",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention artifacts, making it impossible to determine if all artifacts are sets. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3183",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion that \"all creatures are items\" cannot be directly supported by the premises provided. While creatures are connected to beings and metals, there is no established link between metals and items. The premises only connect artifacts to groups and groups to items, creating a separate chain"
+    },
+    {
+      "id": "hard_3188",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where Realms belong to Claims, which belong to Groups, which belong to Alloys, and Alloys belong to Things. Therefore, Realms are part of Things, making the conclusion \"no realms belong to things\" false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3184",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion refers to \"facts,\" which are not mentioned in the premises. Without any connection between categories and facts, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3192",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"fields implies items\" is supported by the chain of premises: fields \u2192 principles \u2192 classes \u2192 items. Therefore, the conclusion is True.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3189",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention \"beings,\" so we cannot determine if all beings are clusters. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3191",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all statements are part of domains, which are fields, which are mammals, and thus artifacts. The conclusion incorrectly claims no statements are artifacts, contradicting the premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3195",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention minerals, making it impossible to determine their relation to items. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3187",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion that \"every sector belongs to regions\" cannot be definitively established from the given premises. While sectors are linked to organisms, there is no information connecting organisms to regions. Therefore, the relationship between sectors and regions remains uncertain.\n\nANSWER: Uncert"
+    },
+    {
+      "id": "hard_3186",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct or indirect link between sets (where facts are contained) and humans. While fields are connected to classes and ultimately to humans, there is no information about sets being related to humans. Thus, it is uncertain whether facts are contained in humans.\n\nANSWE"
+    },
+    {
+      "id": "hard_3194",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain connecting realms to categories. All realms are in sets, which are part of things, mixtures, classes, and ultimately categories. Therefore, realms do belong to categories, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3193",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where mammals imply fields, which imply metals, classes, alloys, and ultimately compounds. Therefore, mammals do imply compounds, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3197",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "Based on the premises, sets are subsets of regions, which are subsets of people, minerals, classes, and finally facts. Therefore, sets are contained in facts.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3196",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish that facts are a subset of compounds, which are a subset of metals, which are a subset of collections. However, the premises do not provide any information about \"things\" or whether collections are a subset of things. Therefore, the conclusion cannot be determined as it relies"
+    },
+    {
+      "id": "hard_3199",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that artifacts are subsets of animals, which are subsets of minerals, which in turn are subsets of regions. Therefore, artifacts are subsets of regions, making the conclusion that no artifacts belong to regions false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3190",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not provide a direct or certain link between minerals and humans. While minerals are connected through artifacts, ideas, and entities, the premises do not establish that entities are sets or that all entities belong to humans. Therefore, it is uncertain whether every mineral belongs "
+    },
+    {
+      "id": "hard_3201",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "From the premises, all zones are people, all people are realms, and all realms are collections. Therefore, all zones are collections. The conclusion claims no zones are collections, which directly contradicts this chain of reasoning.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3204",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of implications: sets imply sectors, which imply mammals, which imply concepts, which imply realms. Therefore, sets indeed imply realms.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3200",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion mentions \"things,\" which is not defined or connected to the premises. Therefore, it's uncertain whether \"things\" is contained in mixtures.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3198",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish relationships between sets, humans, regions, creatures, zones, and fields, but they do not mention or relate these to \"items.\" Since \"items\" are not defined or connected to the other categories, we cannot determine if collections are a subset of items.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3205",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises. Mammals are contained in regions, which are in realms, elements, and ultimately artifacts.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3202",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows as items are a subset of mixtures, which are subsets of humans, which are subsets of beings, which are subsets of compounds, which are subsets of fields. Therefore, items are indeed a subset of fields.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3209",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct link between artifacts and objects. While artifacts imply things and creatures imply objects, there is no premise connecting \"things\" to \"objects,\" making the conclusion uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3210",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The chain of implications from metals to groups is established through the premises, making the conclusion valid.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3211",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of containment from zones to items. Since zones are contained in metals, metals in animals, and animals in items, zones must be contained in items. The repeated statement about claims being alloys is irrelevant to the conclusion.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3207",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"classes implies alloys\" follows from the chain of implications in the premises: classes \u2192 clusters \u2192 metals \u2192 claims \u2192 minerals \u2192 alloys. Each step is a valid implication, so the conclusion is True.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3213",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows directly from the premises as every people belongs to sectors, which belong to items, entities, elements, and ultimately statements.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3208",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not explicitly connect \"sets\" to any other terms, making it uncertain whether sets imply facts.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3212",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that domains are contained within compounds, which are within fields, which are within mixtures. Therefore, domains are indeed contained in mixtures, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3206",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not establish a direct or indirect link between regions and clusters. Regions imply beings and alloys, but there is no connection to fields or clusters. Therefore, the conclusion is False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3203",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish a chain from objects to principles but do not explicitly connect to \"beings.\" Since \"beings\" are not defined in terms of the given premises, the conclusion cannot be directly inferred. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3216",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of inclusion: artifacts are in concepts, concepts are in sectors, and sectors are in elements. Thus, artifacts are contained in elements.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3215",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"ideas implies sets\" can be derived through a chain of implications provided by the premises. Starting with ideas implying alloys, and following the chain through objects, domains, things, and finally sets, we see that ideas do indeed imply sets. The other premises about mammals, real"
+    },
+    {
+      "id": "hard_3185",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion depends on whether \"items\" are connected to the established categories. The premises link classes to realms, realms to elements, elements to artifacts, and artifacts to regions. However, \"items\" are not explicitly defined or linked to these categories. Without knowing the relationship"
+    },
+    {
+      "id": "hard_3214",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that compounds are a subset of concepts, making the conclusion that \"no compounds are concepts\" false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3221",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain where humans are contained in elements, which are in sets, which are in organisms, which are in statements. Since each step is a direct containment, humans are indeed contained in statements.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3219",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically from the premises. Since all elements are humans (Premise 4), and all humans are claims (Premise 2), and all claims are sets (Premise 1), it follows that all elements are sets. The other premises about principles and classes do not affect this conclusion.\n\nANSWER: Tr"
+    },
+    {
+      "id": "hard_3162",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion that \"all claims are mixtures\" cannot be definitively established from the given premises. While there are connections between claims and mixtures through other terms, the premises do not provide a direct or complete link to confirm this conclusion.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3223",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all alloys are creatures, making the conclusion that no alloys are creatures false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3218",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is not supported by the premises as there is no information linking \"compounds\" to any of the given categories or sets.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3217",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish relationships between categories, but they do not provide a direct or indirect link between mammals and ideas. While mammals are subsets of realms, and realms are subsets of collections, collections are not connected to ideas in the premises. Therefore, it is uncertain whether"
+    },
+    {
+      "id": "hard_3222",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that zones are a subset of realms, making the conclusion that \"no zones are realms\" false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3228",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish a chain from clusters to regions but do not explicitly connect animals to regions. Since all animals are collections and there is no direct link between collections and regions, the conclusion cannot be definitively established.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3220",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain from items to organisms, making the conclusion incorrect. Therefore, the conclusion is False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3224",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because, according to the premises, alloys do imply people through the chain of implications.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3226",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that realms are contained in regions, which are in groups, and groups are in statements. Therefore, realms are contained in statements, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3231",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is supported by the chain: things \u2192 beings \u2192 sectors \u2192 domains \u2192 claims. All premises are satisfied, so the conclusion holds.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3233",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of containment leading from sets to sectors. Sets are contained in metals, metals in domains, domains in organisms, and organisms in sectors. Thus, sets are indeed contained in sectors.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3229",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not establish a direct or indirect link between objects and zones. While objects imply concepts, realms, and categories, these do not connect to alloys or zones. Therefore, the conclusion that \"objects imply zones\" is not supported.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3234",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that artifacts are subsets of minerals, which are subsets of sectors, which are subsets of claims, which are subsets of realms. Therefore, artifacts are subsets of realms, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3232",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is uncertain because while facts are contained in artifacts and artifacts in metals, there is no direct or indirect link provided in the premises connecting metals to sectors. The premises do not establish a pathway from facts to sectors.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3230",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be determined as true or false because the premises do not establish a direct link between elements and alloys. Ideas are a subset of elements, but without information connecting elements to alloys, the conclusion remains uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3238",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a direct chain: All domains are metals, which are concepts, and all concepts are beings. Thus, all domains are beings.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3239",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that elements are contained within people, who are within fields, which are within sectors. Thus, elements are indeed contained in sectors, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3243",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically as humans are subsets of objects, which are subsets of ideas, which are subsets of fields.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3242",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that \"entities do not imply groups\" is false because entities imply mammals, which imply humans, which imply categories, which imply groups.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3237",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish that elements are a subset of domains but do not provide a direct link between domains and realms. Without knowing if domains are a subset of realms, the conclusion that elements are a subset of realms cannot be definitively determined.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3236",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be determined as True or False because the premises do not address \"things.\" Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3225",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where compounds are a subset of clusters. The conclusion contradicts this, making it false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3240",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct or indirect link between alloys and clusters. While alloys are contained in metals and regions are contained in clusters, there is no information connecting metals to clusters. Therefore, the conclusion cannot be determined as true or false; it is uncertain.\n\nA"
+    },
+    {
+      "id": "hard_3241",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is False because regions are subsets of compounds, which are animals, which are creatures.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3244",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is the opposite of what the premises suggest, as principles are subsets of metals. \n\nANSWER: False"
+    },
+    {
+      "id": "hard_3235",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"artifacts imply elements\" cannot be directly supported by the given premises. While artifacts imply classes and classes imply claims, there is no logical bridge connecting claims to elements. The other premises do not provide a pathway from claims to beings or elements. Therefore, th"
+    },
+    {
+      "id": "hard_3250",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises establish connections between realms, sets, creatures, organisms, people, principles, humans, and regions, but minerals are entirely absent and unrelated. Therefore, realms do not imply minerals based on the given information.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3246",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct link between \"things\" and \"realms.\" While \"things\" belong to groups and \"people\" belong to realms, there is no information connecting groups to realms or things to realms. The conclusion is not directly supported by the premises.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3247",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows directly from the premises through a chain of subset relationships: zones are metals, metals are artifacts, artifacts are categories, and categories are minerals. Therefore, every zone belongs to minerals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3249",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain from items to sets to realms to concepts. Since every item belongs to a set, which belongs to a realm, which belongs to concepts, the conclusion holds. Mixtures and organisms are unrelated here.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3248",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that clusters is not a subset of principles is False because clusters are subsets of fields, which are subsets of people, mammals, and ultimately principles.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3253",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a hierarchy where compounds are contained in claims. Therefore, the conclusion that compounds are not contained in claims is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3254",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct or indirect link between elements and facts. While elements are connected to domains and alloys, and alloys relate to objects and zones, there is no connection to animals or facts. Thus, it's uncertain whether elements are contained in facts.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3252",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is False because the premises establish that claims are subsets of clusters.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3255",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that \"people is not a subset of classes\" is false because, according to the premises, people are subsets of artifacts, which are subsets of things, which are subsets of principles, which are subsets of classes. Thus, people are indeed subsets of classes.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3259",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain leading from categories to ideas, making the conclusion true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3256",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "Metals are a subset of artifacts, which are subsets of alloys, which are subsets of people. People are subsets of domains, which are subsets of humans. Therefore, metals are subsets of humans.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3261",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish relationships among creatures, entities, clusters, realms, and collections, but they do not mention or imply anything about \"classes.\" Therefore, we cannot determine whether animals are contained in classes based on the given information.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3258",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is contradicted by the premises, as the chain of reasoning shows that all mammals are statements.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3257",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish relationships between humans, facts, elements, clusters, mixtures, statements, and collections but do not mention regions. Since regions are not connected to any of these terms, the conclusion cannot be determined as True or False.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3227",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not directly or indirectly mention \"creatures.\" Therefore, we cannot determine if all creatures are animals based on the given information.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3260",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a connection between collections and mammals. Collections are a subset of principles, but principles' relation to mammals is unspecified. Hence, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3245",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises provided do not establish a direct or indirect connection between metals and things. While metals imply mammals and mammals imply concepts, there is no premise linking concepts to things. The chain of reasoning does not support the conclusion that metals imply things.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3262",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "Facts are subsets of collections, which are subsets of statements, which are subsets of classes, which are subsets of sectors, which are subsets of animals. Therefore, facts are subsets of animals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3265",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion introduces \"categories\" which are not mentioned in the premises, making it uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3266",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that \"principles is not a subset of entities\" is False because, through the premises, principles are subsets of sectors, which are subsets of categories, which are subsets of facts, and facts are subsets of entities. Thus, principles are indeed subsets of entities.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3263",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that domains imply sectors, which in turn imply clusters, leading to humans, fields, and ultimately sets. Therefore, domains do imply sets, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3269",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises discuss statements, items, claims, collections, and concepts but do not mention minerals. Since minerals are not connected to the premises, we cannot determine if they are artifacts. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3272",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion introduces \"collections,\" which isn't mentioned in any premise. Since there's no information linking \"collections\" to the other terms, it's impossible to determine its subset relation to \"principles.\"\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3264",
+      "label": "Uncertain",
+      "predicted": "True",
+      "correct": false,
+      "response": "Let\u2019s break down the premises and conclusion step by step:\n\n1. **Premise 2 & 3**: All mammals are compounds, and mammals imply mixtures. This means all mammals are both compounds and mixtures.\n2. **Premise 5 & 4**: Compounds are contained in collections, and collections are contained in sectors. The"
+    },
+    {
+      "id": "hard_3271",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises as ideas are subsets of groups, which are subsets of classes, which are subsets of sectors, which are subsets of alloys. Therefore, ideas are subsets of alloys.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3273",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not mention \"people\" or any relation between facts/collections and people. Therefore, the conclusion cannot be supported.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3270",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of implications leading from sets to fields. Each step in the chain (sets \u2192 metals \u2192 entities \u2192 fields) is valid, making the conclusion true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3267",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be definitively determined as true or false because the premises do not establish a direct link between humans being minerals and realms being mixtures. The chain of reasoning is incomplete without knowing if entities (which include humans) are realms. Therefore, the conclusion"
+    },
+    {
+      "id": "hard_3276",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that domains imply statements, which in turn imply items, and finally items imply classes. Therefore, domains do imply classes, making the conclusion that they do not imply classes false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3274",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not support the conclusion that all items are animals. While items are organisms, and all organisms are concepts (clusters), there is no indication that all organisms are animals. Organisms include a broader category beyond animals. Therefore, the conclusion does not follow.\n\nANSWER:"
+    },
+    {
+      "id": "hard_3278",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a chain leading from domains to fields through minerals, categories, mammals, and compounds. Therefore, domains imply fields.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3277",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of implications leading from metals to creatures through beings, alloys, things, realms, and finally creatures. Therefore, metals imply creatures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3282",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is False because regions imply principles through the chain of premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3280",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where claims are contained in objects, which are in collections, statements, and ultimately alloys. Thus, claims are contained in alloys, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3251",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a connection between people and fields. While mammals are contained in fields and people are in groups, there is no information linking groups to fields. Therefore, we cannot determine that people are contained in fields.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3275",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not establish a direct or indirect link between humans and minerals. While humans imply organisms, which imply people, and claims imply metals, there is no chain connecting humans to minerals. The only link to minerals is through regions, which is unrelated to humans. Therefore, the "
+    },
+    {
+      "id": "hard_3283",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because the premises establish that all realms are minerals, directly contradicting the conclusion.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3279",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be directly supported because there's no stated link connecting sets (to which zones belong) to elements. The premises do not establish a chain from zones to elements. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3285",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "All premises establish a chain connecting \"things\" to \"creatures.\" Since every thing is a claim, which belongs to sectors within creatures, the conclusion logically follows.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3268",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises establish relationships between various categories, but they do not provide a direct link between mixtures and clusters. While mixtures are organisms and clusters are a subset of objects, the premises do not connect mixtures to clusters. Therefore, the conclusion is not supported.\n\nANSW"
+    },
+    {
+      "id": "hard_3288",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a direct chain linking mammals to mixtures through a series of subset relationships, making the conclusion true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3281",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish relationships between compounds, categories, mixtures, facts, entities, and beings. However, the conclusion that \"all elements are categories\" is not directly supported. While facts are both entities and elements, and entities belong to beings, there is no premise linking elem"
+    },
+    {
+      "id": "hard_3289",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "All classes are creatures, which are fields, which are realms, which are claims. Therefore, all classes are claims.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3291",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows directly from the premises. Starting with statements as entities, they belong to claims, which are compounds, and all compounds are realms. Thus, every statement belongs to realms.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3284",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of inclusion: clusters are things, things are categories, and categories are fields. Therefore, all clusters are fields.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3287",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion claims that no realms belong to things. However, based on the premises, realms are ideas, which are organisms, and all organisms belong to things. Therefore, realms do belong to things, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3292",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "All concepts are clusters, which are alloys, which are principles. Therefore, all concepts are principles, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3290",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is False because the premises establish that metals are subsets of compounds.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3294",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that \"statements is not a subset of beings\" is false because, based on the premises, statements are subsets of regions, which are subsets of mixtures, humans, and ultimately beings.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3286",
+      "label": "True",
+      "predicted": "False",
+      "correct": false,
+      "response": "The conclusion \"entities imply concepts\" is not supported by the premises because there is no direct or indirect link from entities to concepts. Premise 4 connects entities to beings, but there is no premise that connects beings to concepts. Without this link, the conclusion cannot be drawn.\n\nANSWER"
+    },
+    {
+      "id": "hard_3296",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all concepts are mixtures, contradicting the conclusion that no concepts are mixtures.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3298",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain from creatures to realms, clusters, groups, sets, and finally sectors. Since each premise is a universal statement, the conclusion logically follows.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3297",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of containment leading from humans to people. Since every step connects humans to people through intermediate categories, the conclusion holds true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3302",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that compounds are a subset of classes, making the conclusion that \"no compounds are classes\" false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3300",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where principles imply organisms, which imply elements, which imply artifacts, which imply people. Therefore, principles do imply people, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3293",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not provide a direct link between \"items\" and \"beings.\" While \"items\" are \"things,\" and \"collections\" are \"beings,\" there's no stated connection between \"things\" and \"beings\" or between \"items\" and \"collections\" or \"concepts.\" Therefore, we cannot definitively conclude that all items"
+    },
+    {
+      "id": "hard_3301",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a connection between alloys and classes. Classes are not defined or mentioned in the premises, making the conclusion uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3299",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises establish relationships between categories but do not connect humans to mixtures. Humans are subsets of beings, which are subsets of items, while mixtures are a separate category containing groups. No link exists between items and mixtures.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3304",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of inclusion leading from sectors to things. All sectors are humans, who are domains, which are beings, which are artifacts, and all artifacts are things. Thus, the conclusion holds.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3307",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises as sets are linked to sectors through a chain of connections. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3310",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a logical chain: sectors \u2192 principles \u2192 fields \u2192 regions \u2192 clusters \u2192 humans. Each implication directly leads to the next, confirming that sectors imply humans.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3309",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of implications leading from statements to fields. Statements imply sets, which imply groups, which imply artifacts, which imply fields. Therefore, the conclusion that statements imply fields is valid.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3308",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of subsets leading from mixtures to fields. Since all mixtures are mammals (premise 4), all mammals are objects (premise 2), all objects are clusters (premise 5), and all clusters are fields (premise 3), it logically follows that all mixtures are fields. The other prem"
+    },
+    {
+      "id": "hard_3306",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that minerals are not contained in ideas is false because minerals are a subset of mammals, which are in zones, clusters, artifacts, and ultimately ideas.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3305",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises through a chain of subset relationships. Since humans are in statements, which are in domains, and domains are in realms, humans are therefore contained in realms.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3303",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Based on the premises, humans are a subset of clusters, which are subsets of groups, which are subsets of creatures, which are subsets of collections, which are subsets of zones. Therefore, humans are indeed a subset of zones, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3311",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain connecting classes to beings, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3314",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is False because the premises establish a chain of implications leading from animals to alloys.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3312",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain of containment: clusters \u2282 claims \u2282 alloys \u2282 items. Therefore, clusters must be contained in items, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3313",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that ideas are a subset of humans, which are a subset of artifacts, which are a subset of facts. Therefore, ideas are indeed a subset of facts, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3315",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that principles are elements, which are organisms, which are minerals. Thus, all principles are minerals. The conclusion incorrectly claims no principles are minerals, which contradicts the premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3319",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that artifacts are subsets of claims, which are subsets of facts, which are subsets of collections, which are subsets of organisms. Thus, artifacts are indeed subsets of organisms, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3320",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The chain of implications starts with animals implying items, which leads to compounds, then entities, and finally sets. There are no premises that disrupt this chain, so the conclusion holds.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3322",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"artifacts implies zones\" is true because each premise logically connects artifacts to zones without any gaps.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3317",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that fields are a subset of mixtures, which are ideas, and ideas are groups. Therefore, fields are groups, making the conclusion \"no fields are groups\" false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3318",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all groups are entities, making the conclusion that \"no groups are entities\" false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3321",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because ideas are contained in classes, which are subsets of groups, principles, and ultimately fields. Therefore, ideas are contained in fields.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3323",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all beings are subsets of animals, which in turn are subsets of alloys. Thus, all beings belong to alloys, making the conclusion that no beings belong to alloys false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3329",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises as regions imply clusters, which imply people, and people imply categories. Therefore, regions imply categories.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3328",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "All groups are categories (premise 4), all categories are humans (premise 2), and all humans are statements (premise 5). Therefore, all groups are statements.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3326",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention mixtures, so we cannot determine if they are sectors. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3331",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention humans or provide any information about their relationship to other categories. Therefore, the conclusion cannot be determined from the given premises. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3330",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because the premises establish that regions are a subset of entities through a chain of subsets.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3324",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is based on the logical chain that connects objects to collections. Objects belong to facts, which are part of regions, which in turn belong to sectors, and finally, sectors belong to collections. Therefore, objects do belong to collections, making the conclusion that \"no objects belo"
+    },
+    {
+      "id": "hard_3332",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of containment: concepts are within categories, which are within mixtures, and mixtures are within metals. Thus, concepts are contained in metals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3316",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion that \"all alloys are things\" cannot be definitively determined from the premises. While alloys are facts, which are creatures, and creatures are entities, there is no direct link stating that entities are things. Premise 3 only connects concepts to things, leaving the status of entiti"
+    },
+    {
+      "id": "hard_3327",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct or indirect link between \"groups\" and \"objects.\" While \"groups\" are contained in \"minerals,\" and \"minerals\" are not connected to \"objects\" through the premises, the conclusion cannot be definitively supported or refuted. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3334",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not provide any information about realms, making it impossible to determine if they are groups. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3337",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"minerals is contained in elements\" is True because minerals are subsets of clusters, clusters are subsets of facts, and facts are subsets of elements, forming a direct chain.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3339",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain from fields to beings through people, things, and ideas. The conclusion follows logically.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3336",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where items are part of creatures, which are part of mixtures, and mixtures are things. Thus, items belong to things, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3340",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because alloys do imply sets through the given premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3341",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that concepts is a subset of fields, which is a subset of elements, which is a subset of groups. Therefore, concepts is a subset of groups. The conclusion claims the opposite, which contradicts the premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3338",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises as statements are subsets of concepts, which are subsets of alloys, which are subsets of objects, which are subsets of things. Hence, statements are indeed a subset of things.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3335",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a connection between elements and sectors. While elements are subsets of humans, which are subsets of groups (and thus concepts), there is no information linking concepts to sectors. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3346",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish that all beings are alloys, which are metals, which are realms, and all realms are claims. Therefore, all beings are claims.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3344",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that regions are contained in concepts, which are elements, artifacts, entities, and ultimately sectors. Therefore, regions are contained in sectors, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3342",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not provide a direct or indirect link between classes and zones. While classes are categories (premise 5) and categories are mixtures (premise 2), there is no statement connecting mixtures to zones. Therefore, the conclusion is not supported.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3349",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is False because artifacts are contained in beings.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3295",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish relationships between artifacts, clusters, collections, and alloys, forming a chain where every artifact eventually belongs to an alloy. However, the premises do not cover all possible objects, leaving some objects outside the established chain. Therefore, the conclusion that "
+    },
+    {
+      "id": "hard_3347",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain from sectors to mammals. Since sectors are subsets of entities, which are subsets of animals, which are subsets of mammals, sectors must be a subset of mammals. Therefore, the conclusion that sectors is not a subset of mammals is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3343",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not establish a direct or indirect link between domains and categories. While domains imply entities, there is no further connection to clusters or categories. Therefore, the conclusion cannot be supported.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3350",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain where realms are subsets of sets, which are subsets of metals, and metals are subsets of mammals. Therefore, realms are indeed subsets of mammals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3354",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows as all artifacts are facts based on the premises.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3345",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be determined as certain because the premises do not mention \"concepts\" or establish a direct link between concepts and objects. The premises discuss clusters, creatures, domains, realms, animals, objects, sectors, and ideas, but \"concepts\" are absent. Therefore, the conclusion"
+    },
+    {
+      "id": "hard_3355",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish a chain from animals to domains, but realms are not mentioned, making the conclusion uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3351",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that every class is an organism, contradicting the conclusion that no classes belong to organisms.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3352",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is supported by the chain of premises: beings \u2192 compounds \u2192 organisms \u2192 artifacts. Therefore, the conclusion is True.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3356",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a hierarchy where compounds are subsets of classes, which are subsets of realms, and realms are subsets of domains. Therefore, compounds are indeed a subset of domains.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3353",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where every creature is an item, which is a compound, which belongs to mammals. Thus, all creatures are mammals, making the conclusion that no creatures belong to mammals false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3358",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion states that animals do not imply sets. Based on the premises, animals imply zones, which imply creatures, which imply objects, and objects imply sets. Therefore, animals do imply sets, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3348",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish that alloys imply principles, which imply objects, which imply mixtures, but there is no direct or indirect link between mixtures and elements. Therefore, it is uncertain whether alloys imply elements.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3325",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be definitively determined as true or false based on the given premises. The premises establish relationships between various categories but do not provide a direct or indirect link between compounds and elements. Therefore, the conclusion remains uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3359",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where claims are contained in principles, which are in creatures, leading to entities, statements, and finally mammals. Therefore, claims are contained in mammals, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3363",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of implications: regions \u2192 concepts \u2192 metals \u2192 classes \u2192 collections. Therefore, regions indeed imply collections.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3360",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain of subsets leading regions to be a subset of sectors. Therefore, the conclusion that regions is not a subset of sectors is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3357",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish that groups are subsets of categories but do not link categories to objects. Since there's no information connecting categories to objects, the conclusion cannot be definitively determined.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3365",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows through a chain of implications: groups imply sectors, which imply concepts, which imply metals, which imply humans, who imply domains. Thus, groups imply domains.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3367",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain: objects \u2192 humans \u2192 mixtures \u2192 beings \u2192 facts. Therefore, objects do imply facts, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3361",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows directly from the premises. All sets are facts, facts are entities, and entities are collections. Therefore, all sets are collections.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3333",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct link between minerals and things. While minerals are a subset of artifacts, which are subsets of humans, and humans are animals that are collections, there is no information connecting collections or humans to things. Therefore, the conclusion is uncertain.\n\nAN"
+    },
+    {
+      "id": "hard_3362",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of subsets from clusters to claims. Each step is a subset of the next, ensuring that clusters are a subset of claims. Premises about regions, zones, and organisms are separate and don't affect this chain. Therefore, the conclusion is True.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3369",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises. Ideas are classes, which are claims, which are objects, which are humans, which are compounds. Therefore, all ideas are compounds.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3368",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically through the chain of implications provided in the premises. Clusters imply fields, which imply people, leading to artifacts, sets, and ultimately creatures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3370",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically from the premises. Since all collections are beings, and all beings are items, the conclusion is true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3366",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention 'creatures', so there's no basis to conclude that sectors are a subset of creatures. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3372",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain of containment leading to things being in collections. Therefore, the conclusion that things are not in collections is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3364",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The conclusion does not follow from the premises. Sets are subsets of beings, which are subsets of statements, but there is no link between statements and principles. Therefore, sets are not necessarily subsets of principles.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3371",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish a chain from things to items to mixtures, but there's no link connecting mixtures or items to classes. While clusters imply concepts and belong to organisms within domains, the conclusion that \"every things belongs to classes\" isn't supported by the premises.\n\nANSWER: Uncertai"
+    },
+    {
+      "id": "hard_3377",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that fields are contained within categories, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3374",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all ideas are metals, and all metals are mixtures. Therefore, ideas are mixtures, making the conclusion \"no ideas belong to mixtures\" false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3380",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is logically supported by the premises. All metals are humans, all humans are regions, and all regions are beings, making all metals beings.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3381",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a chain of syllogisms linking classes to claims. Each step logically follows, so the conclusion is necessarily true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3382",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain leading from alloys to facts, making the conclusion that alloys do not imply facts false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3385",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The term \"groups\" is not defined or connected in the premises, making the conclusion uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3379",
+      "label": "Uncertain",
+      "predicted": "True",
+      "correct": false,
+      "response": "The conclusion \"items implies fields\" is true because items are mammals, which are organisms, and organisms imply fields.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3387",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Clustering is a subset of alloys, which is a subset of things, which is a subset of humans, which is a subset of ideas. Therefore, clusters are a subset of ideas, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3386",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that \"no creatures belong to entities\" is false because creatures are subsets of entities through the chain of premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3373",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that alloys are subsets of beings, which are subsets of sectors, which are subsets of facts. Therefore, alloys are subsets of facts, making the conclusion that they are not subsets of facts false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3389",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises. Regions are contained in animals, which are in groups, which are in sectors. Therefore, regions are in sectors.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3376",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises form a chain: entities \u2192 compounds \u2192 concepts \u2192 animals. Therefore, entities do imply animals, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3390",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct or indirect link between principles and classes. While principles are contained in concepts, there is no evidence connecting concepts to classes. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3384",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Categories are a subset of artifacts, which are a subset of statements, which are a subset of creatures. Therefore, categories must be a subset of creatures, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3391",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that \"no ideas are clusters\" is false because, according to the premises, all ideas are regions, and all regions are clusters. Therefore, all ideas are clusters.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3392",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "Clusters imply zones, which imply classes, leading to principles, and finally to artifacts. All premises link directly, making the conclusion valid.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3378",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish a hierarchy connecting things, groups, and creatures, but the term \"entities\" is not explicitly defined or connected to \"creatures.\" Since the conclusion relies on an undefined term, it cannot be confirmed as true or false.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3394",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows as all premises establish the necessary inclusions leading from mammals to alloys. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3393",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that objects are contained in classes, which are subsets of statements, which in turn are subsets of alloys. Therefore, objects are indeed contained in alloys, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3396",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that collections are contained in realms, which are contained in things, which are contained in concepts. Therefore, collections are contained in concepts. The conclusion claims the opposite, which is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3395",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is supported by the chain of premises: humans \u2192 alloys \u2192 compounds \u2192 artifacts \u2192 objects \u2192 domains. Each step links humans to domains directly.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3383",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion that \"all compounds are claims\" cannot be directly supported by the given premises. While the premises establish that metals are realms and realms are claims, there is no link connecting compounds (which are artifacts) to realms or claims. Therefore, the conclusion is uncertain.\n\nANSW"
+    },
+    {
+      "id": "hard_3402",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain: minerals \u2192 humans \u2192 animals \u2192 entities \u2192 items. Since all these connections are given, minerals do imply items.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3398",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is not supported by the premises since \"fields\" are not mentioned or connected to any other terms in the premises.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3399",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion that \"statements is a subset of objects\" cannot be directly supported by the given premises. While the premises establish that statements are clusters, which are compounds, there is no logical connection between compounds and objects. The premises do not provide enough information to "
+    },
+    {
+      "id": "hard_3401",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a chain leading minerals to items. Therefore, every minerals belongs to items.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3388",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"ideas imply items\" cannot be directly supported by the premises. There is no logical chain connecting ideas to items, as the premises do not provide a pathway from ideas to claims or items.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3405",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that beings are a subset of facts. Therefore, the conclusion that beings are not a subset of facts is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3404",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain linking artifacts to fields. Therefore, the conclusion that artifacts are not contained in fields is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3403",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion depends on establishing a connection between facts and ideas through the premises. Starting with facts being in mixtures (premise 5), mixtures are in regions (premise 4), but there is no premise linking regions to ideas. While metals are in ideas (premise 2), there is no direct or ind"
+    },
+    {
+      "id": "hard_3397",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The conclusion \"domains is contained in principles\" cannot be supported by the given premises. While domains are subsets of sets, which are contained in realms, there is no information linking realms to principles. Additionally, animals being in principles does not establish a connection with domain"
+    },
+    {
+      "id": "hard_3412",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all minerals are principles, making the conclusion that no minerals are principles false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3400",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be definitively determined as True or False based on the given premises. There is no direct or indirect link provided that connects elements to concepts. Elements are contained in creatures, but without information about the relationship between creatures and concepts, the conc"
+    },
+    {
+      "id": "hard_3413",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is true because all concepts are entities, which are compounds, and all compounds are mammals. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3408",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion introduces the term \"domains,\" which is not defined in the premises. Since there's no information connecting \"domains\" to the terms in the premises, we cannot determine if all humans are domains. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3410",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where mammals are contained in organisms, which are in facts, which are in artifacts. Thus, mammals are contained in artifacts, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3409",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of subsets: principles \u2282 metals \u2282 clusters \u2282 mixtures. Since every principles is a subset of metals, and metals are subsets of clusters, which are subsets of mixtures, it logically follows that every principles belongs to mixtures. The other premises about entities and"
+    },
+    {
+      "id": "hard_3415",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that organisms are a subset of fields, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3406",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all humans are classes through a chain of subsets. Therefore, the conclusion that \"no humans are classes\" is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3411",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion introduces \"classes,\" a term not mentioned in the premises. Since no premises link \"classes\" to \"statements,\" we cannot determine the conclusion's validity. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3375",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"sets imply items\" cannot be directly inferred from the premises. The chain of implications stops at \"beings,\" and there is no premise connecting beings to items. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3420",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a logical chain leading to the conclusion. All fields are mixtures, which are regions, and all regions are sets. Therefore, all fields are sets.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3416",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain of subsets: fields \u2282 principles \u2282 creatures \u2282 compounds \u2282 objects. Therefore, fields must be a subset of objects, making the conclusion False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3419",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows as every idea belongs to alloys through the chain of premises. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3414",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion directly contradicts the logical chain derived from the premises, where every being is part of ideas. Therefore, the conclusion is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3417",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "Based on the premises, metals are a subset of organisms, which are subsets of entities, collections, elements, and finally claims. Therefore, metals are indeed a subset of claims, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3418",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that artifacts are not contained in humans is false because, based on the premises, every artifact is an element, which is part of an alloy, which is part of a region, which is a thing, and all things are contained in humans. Therefore, artifacts are indeed contained in humans.\n\nANSWE"
+    },
+    {
+      "id": "hard_3407",
+      "label": "Uncertain",
+      "predicted": "True",
+      "correct": false,
+      "response": "The conclusion hinges on whether \"things\" is the universal set. Since \"things\" isn't explicitly defined but likely refers to the broader context encompassing all entities discussed, categories, being subsets of collections within beings, entities, and principles, would indeed be a subset of things. "
+    },
+    {
+      "id": "hard_3422",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain connecting collections to mixtures. Since all collections are facts (premise 6), and all facts are principles (premise 8), which are clusters (premise 1), zones (premise 2), and mixtures (premise 5), it follows that all collections are mixtures. The conclusion asserts "
+    },
+    {
+      "id": "hard_3426",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that mammals are subsets of mixtures, which are subsets of beings, which in turn are subsets of fields. Thus, mammals do belong to fields, making the conclusion (\"no mammals belong to fields\") false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3427",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises. Collections are organisms (premise 3), organisms are in domains (premise 5), and domains are minerals (premise 2). Therefore, every collection belongs to minerals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3425",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that creatures imply realms through the chain creatures \u2192 humans \u2192 categories \u2192 realms. Therefore, the conclusion that creatures do not imply realms is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3423",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "All realms are regions (premise 2), and all regions are claims (premise 7). Since all claims are domains (premise 1), realms are domains. From premise 6, all domains are animals, so realms are animals. The premises about compounds, fields, and ideas don't affect this conclusion. Therefore, the concl"
+    },
+    {
+      "id": "hard_3421",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish a hierarchy where beings are a subset of alloys, which are part of categories, and sets belong to realms. However, there is no direct link between categories or alloys and creatures. Since things are a subset of creatures but beings are not explicitly connected to things, the "
+    },
+    {
+      "id": "hard_3430",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows because zones are contained in elements, which are in sectors, which are in creatures. Therefore, zones are contained in creatures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3429",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a direct chain: concepts \u2192 minerals \u2192 mixtures \u2192 organisms \u2192 realms \u2192 fields. Therefore, the conclusion is true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3428",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that all animals are mammals, and all mammals are metals, leading to the conclusion that all animals are metals. The conclusion, stating that no animals are metals, directly contradicts this. Therefore, the conclusion is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3424",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"metals is contained in principles\" follows from the premises as each subset relationship is transitive. Metals are in categories, which are in fields, which are in minerals, and minerals are in principles. Therefore, metals are in principles.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3432",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because the premises establish that zones are part of objects, which are creatures, entities, and ultimately groups. Thus, all zones belong to groups.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3431",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain leading categories to be contained in facts, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3434",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain from elements to compounds to organisms to zones to minerals. Since elements are contained in compounds, which are in organisms, which are in zones, which are in minerals, elements are indeed contained in minerals. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3439",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain: People \u2192 Entities \u2192 Clusters \u2192 Beings. Since every person is an entity, and every entity is a cluster, and every cluster is a being, it follows that every person is a being.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3440",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a chain of implications: realms \u2192 claims (premise 7), claims \u2192 objects (premise 3), and objects \u2192 regions (premise 6). Therefore, realms imply regions through these premises.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3433",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is uncertain because the premises do not establish a direct link between \"things\" and \"items.\" There is no information about what \"things\" encompasses, making the conclusion uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3435",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain showing that items are subsets of collections, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3437",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of implications: facts imply fields, which imply ideas, which imply collections, which imply things. Therefore, facts imply things through this chain. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3443",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that compounds are domains, which are elements, animals, objects, and ultimately artifacts. Since all compounds are artifacts, the conclusion that no compounds are artifacts is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3444",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows from the premises through a chain of reasoning: regions \u2192 entities \u2192 statements \u2192 realms \u2192 categories.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3442",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion can be logically derived from the premises. Since all domains are regions, and all regions are mixtures, which are classes, and all classes are creatures, the conclusion follows.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3445",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically through the chain of premises: groups \u2192 claims \u2192 concepts \u2192 statements \u2192 clusters \u2192 sets.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3438",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain where animals are a subset of ideas, which are subsets of items, which are subsets of compounds, which are subsets of mixtures. Thus, animals are indeed a subset of mixtures.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3450",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises as every idea is part of clusters, clusters are part of realms, and realms are part of concepts. The facts premises are irrelevant here.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3452",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows through the chain of subsets: entities \u2192 clusters \u2192 humans \u2192 domains \u2192 objects \u2192 alloys. Premises about zones and claims are irrelevant.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3447",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct or indirect link between mammals and categories. While fields and minerals are connected through containment, and claims are a subset of mammals and sets, there's no information linking humans or mammals to categories. Therefore, the conclusion is uncertain.\n\nA"
+    },
+    {
+      "id": "hard_3453",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises, as each step connects claims through classes, domains, organisms, fields, and finally to collections.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3436",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not establish a connection between humans and organisms. While humans are stated to be contained in metals (Premise 5), there is no information linking metals to organisms. Therefore, the conclusion that humans are contained in organisms is not supported.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3448",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises lead to the conclusion that all ideas are claims, making the given conclusion (\"no ideas are claims\") false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3446",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain of containments leading from items to ideas. Since items are contained in regions, which are contained in beings, which are contained in elements, which are contained in ideas, items must be contained in ideas.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3451",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where creatures are subsets of groups. Therefore, the conclusion that creatures are not subsets of groups is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3441",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish relationships between alloys, animals, collections, things, classes, and realms, but they do not mention artifacts. Without a connection between artifacts and the other terms, we cannot determine if artifacts imply people. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3454",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be determined because \"categories\" is not mentioned in the premises, making the conclusion uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3449",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion is true because the premises form a logical chain linking ideas to minerals through elements, people, mammals, animals, and finally minerals.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3457",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises imply that compounds belong to categories, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3455",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is False because the premises establish that claims are subsets of mixtures.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3465",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that clusters are contained in zones, which are contained in objects, which are contained in people. Therefore, clusters are indirectly contained in people, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3460",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "beings are a subset of mammals, which are subsets of statements, sets, zones, and finally objects. All premises link without gaps, making the conclusion valid.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3456",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion \"every clusters belongs to realms\" is supported by the chain of premises connecting clusters to realms without any gaps. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3463",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish that compounds are contained in classes, which are in minerals, which are in realms, which are in objects, which are in elements. Thus, compounds are contained in elements.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3459",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion can be derived through the chain: ideas \u2282 realms \u2282 sets \u2282 zones \u2282 people \u2282 items. Hence, ideas is contained in items.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3458",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion that every domain belongs to objects cannot be definitively supported by the given premises. While domains are animals and animals are things, there is no information linking things to objects. The premises about regions, sectors, classes, ideas, and statements don't connect to domain"
+    },
+    {
+      "id": "hard_3466",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows logically as ideas are subsets of groups, which are subsets of people, which are subsets of realms, which are subsets of collections.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3462",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion introduces the term \"concepts,\" which is not mentioned in any of the premises. Since there is no logical connection provided between \"concepts\" and \"clusters\" in the given premises, the conclusion cannot be determined as true or false. \n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3461",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows from the premises as entities are connected through subsets to fields.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3467",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that creatures are subsets of sets, which are subsets of compounds, which are subsets of people, which are subsets of sectors, which are subsets of mixtures. Therefore, creatures are contained in mixtures, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3468",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not mention \"ideas,\" so we cannot determine if all ideas are sectors. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3471",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows directly from the premises: entities are elements, elements are beings, and beings are claims. Therefore, all entities are claims.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3473",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain of relationships: Organisms are groups, groups are things, things are sets, and sets are animals. Therefore, all organisms are animals. The conclusion, \"no organisms are animals,\" directly contradicts this logical chain. Thus, the conclusion is false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3469",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises establish hierarchies within certain domains (e.g., fields, clusters, artifacts) and within biological categories (entities, classes, minerals, groups), but they do not link entities or classes to artifacts. Since mammals are entities and classes are groups, there's no premise connectin"
+    },
+    {
+      "id": "hard_3472",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a hierarchy where concepts are subsets of organisms, which are subsets of domains, and domains are subsets of compounds, which are subsets of mixtures, and finally mixtures are subsets of things. Therefore, concepts are ultimately subsets of things, making the conclusion false"
+    },
+    {
+      "id": "hard_3470",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "Based on the premises, minerals are subsets of alloys, which are subsets of sets, which are subsets of groups, which are subsets of ideas, which are subsets of entities. Therefore, minerals are indeed subsets of entities.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3479",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not provide information about objects, making the conclusion uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3478",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises form a logical chain leading from zones to compounds, making the conclusion true.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3474",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be directly supported by the premises. The chain from \"objects\" leads only to \"concepts,\" which does not connect to \"mixtures.\" Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3476",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain of implications leading from categories to things, making the conclusion that categories do not imply things false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3475",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish that metals are contained in clusters through a chain of inclusions: metals \u2192 creatures \u2192 mixtures \u2192 categories \u2192 clusters. Therefore, the conclusion that metals are not contained in clusters contradicts the premises.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3487",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that realms is not a subset of facts is false because realms is a subset of elements, which is a subset of collections, and collections are a subset of facts. Therefore, realms must be a subset of facts.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3483",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises do not establish a connection between \"artifacts\" and \"creatures.\" While \"artifacts\" are contained in \"sectors\" and \"humans\" are contained in \"creatures,\" there is no overlap or hierarchy linking \"sectors\" to \"creatures.\" Therefore, the conclusion is not supported by the premises.\n\nANSW"
+    },
+    {
+      "id": "hard_3485",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion incorrectly states that mixtures are not a subset of entities. Since mixtures \u2282 principles \u2282 groups \u2282 entities, mixtures must be a subset of entities. Thus, the conclusion is False.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3482",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because the premises establish that all organisms are part of groups through a chain of connections.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3486",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion that regions are not contained in humans is false because, according to the premises, regions are subsets of compounds, which are subsets of alloys, which are subsets of humans. Thus, regions are contained in humans.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3480",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a hierarchy where clusters are subsets of concepts, which are subsets of statements, compounds, ideas, and ultimately principles. Therefore, clusters are a subset of principles, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3477",
+      "label": "Uncertain",
+      "predicted": "False",
+      "correct": false,
+      "response": "The premises establish that groups are contained in mammals, which are organisms, sets, fields, and clusters. However, there is no direct or indirect link connecting fields or clusters to sectors. Since the only connection to sectors is through facts (premise 2), which are unrelated to groups, we ca"
+    },
+    {
+      "id": "hard_3489",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion logically follows as all artifacts are humans, who are domains (objects), which are metals. \n\nANSWER: True"
+    },
+    {
+      "id": "hard_3488",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The premises establish a chain: humans are sets, sets are concepts, concepts are claims. Thus, humans belong to claims. The other premises about organisms, metals, and animals don't affect this conclusion.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3484",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because metals are contained in groups, which are part of domains, clusters, concepts, and ultimately things. Therefore, metals are indeed contained in things.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3490",
+      "label": "True",
+      "predicted": "True",
+      "correct": true,
+      "response": "The conclusion follows because domains are subsets of things, which are subsets of clusters, which are subsets of objects. Therefore, domains are indeed a subset of objects.\n\nANSWER: True"
+    },
+    {
+      "id": "hard_3491",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion cannot be directly supported by the premises as there is no information linking sectors or collections to realms. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3496",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The conclusion is false because the premises logically lead to the conclusion that all organisms belong to categories. \n\nANSWER: False"
+    },
+    {
+      "id": "hard_3498",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct link between zones and objects. While zones are connected to items and things to objects, the relationship between items and things is not provided. Therefore, we cannot definitively conclude that every zone belongs to objects.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3497",
+      "label": "False",
+      "predicted": "False",
+      "correct": true,
+      "response": "The premises establish a chain where elements are contained in mammals, which are in concepts, which are in sets. Therefore, elements are contained in sets, making the conclusion false.\n\nANSWER: False"
+    },
+    {
+      "id": "hard_3495",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"sets is a subset of realms\" cannot be definitively determined as true or false based on the given premises. While sets are a subset of principles, there is no direct or indirect link provided that connects principles or sets to realms. Therefore, the status of sets as a subset of rea"
+    },
+    {
+      "id": "hard_3499",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion is uncertain because while mammals are stated to belong to minerals, there is no premise linking minerals to realms. Therefore, we cannot definitively conclude that every mammal belongs to realms.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3492",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not provide a clear chain of reasoning to link items to entities. While items belong to classes and concepts belong to entities, the relationship between classes and concepts is not established. Therefore, it is uncertain whether every item belongs to entities.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3494",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises do not establish a direct or indirect link between objects and people. Objects are a subset of zones, and organisms are a subset of people, but there is no information connecting zones to people or artifacts to people beyond regions, which are classes and artifacts but not directly tied"
+    },
+    {
+      "id": "hard_3493",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"concepts imply classes\" cannot be necessarily determined as true or false based on the given premises. There is no direct or indirect link between concepts and classes in the provided premises. Therefore, the conclusion is uncertain.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3481",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The conclusion \"organisms implies compounds\" is uncertain because the premises only establish that people (a subset of organisms) are compounds, but they do not provide information about all organisms.\n\nANSWER: Uncertain"
+    },
+    {
+      "id": "hard_3464",
+      "label": "Uncertain",
+      "predicted": "Uncertain",
+      "correct": true,
+      "response": "The premises establish that all groups are objects, and all objects are minerals. However, there is no direct or indirect link between items and groups or objects, as items are mammals (Premise 1) and the chain of connections does not bridge items to minerals. Therefore, the conclusion cannot be def"
+    }
+  ]
+}

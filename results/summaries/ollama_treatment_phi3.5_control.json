@@ -1,0 +1,12 @@
+{
+  "treatment": "control",
+  "model": "phi3.5",
+  "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+  "total": 500,
+  "correct": 373,
+  "wrong": 126,
+  "unparsed": 1,
+  "errors": 0,
+  "accuracy": 0.746,
+  "elapsed_seconds": 2311.2
+}

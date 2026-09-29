@@ -1,0 +1,12 @@
+{
+  "treatment": "econst",
+  "model": "deepseek-r1:14b",
+  "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+  "total": 1500,
+  "correct": 1446,
+  "wrong": 54,
+  "unparsed": 0,
+  "errors": 0,
+  "accuracy": 0.964,
+  "elapsed_seconds": 126026.4
+}

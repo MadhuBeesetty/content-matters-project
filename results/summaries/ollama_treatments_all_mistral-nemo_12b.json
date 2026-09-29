@@ -1,0 +1,38 @@
+{
+  "control": {
+    "treatment": "control",
+    "model": "mistral-nemo:12b",
+    "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+    "total": 500,
+    "correct": 250,
+    "wrong": 127,
+    "unparsed": 123,
+    "errors": 0,
+    "accuracy": 0.5,
+    "elapsed_seconds": 5521.2
+  },
+  "econst": {
+    "treatment": "econst",
+    "model": "mistral-nemo:12b",
+    "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+    "total": 500,
+    "correct": 267,
+    "wrong": 133,
+    "unparsed": 100,
+    "errors": 0,
+    "accuracy": 0.534,
+    "elapsed_seconds": 6244.6
+  },
+  "cdiag": {
+    "treatment": "cdiag",
+    "model": "mistral-nemo:12b",
+    "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+    "total": 500,
+    "correct": 295,
+    "wrong": 129,
+    "unparsed": 76,
+    "errors": 0,
+    "accuracy": 0.59,
+    "elapsed_seconds": 6360.9
+  }
+}

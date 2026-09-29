@@ -1,0 +1,12 @@
+{
+  "treatment": "cdiag",
+  "model": "phi3.5",
+  "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+  "total": 500,
+  "correct": 384,
+  "wrong": 114,
+  "unparsed": 2,
+  "errors": 0,
+  "accuracy": 0.768,
+  "elapsed_seconds": 4167.5
+}

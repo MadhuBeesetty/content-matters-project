@@ -1,0 +1,38 @@
+{
+  "control": {
+    "treatment": "control",
+    "model": "qwen2.5:32b",
+    "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+    "total": 500,
+    "correct": 471,
+    "wrong": 29,
+    "unparsed": 0,
+    "errors": 0,
+    "accuracy": 0.942,
+    "elapsed_seconds": 37523.1
+  },
+  "econst": {
+    "treatment": "econst",
+    "model": "qwen2.5:32b",
+    "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+    "total": 500,
+    "correct": 460,
+    "wrong": 40,
+    "unparsed": 0,
+    "errors": 0,
+    "accuracy": 0.92,
+    "elapsed_seconds": 42677.4
+  },
+  "cdiag": {
+    "treatment": "cdiag",
+    "model": "qwen2.5:32b",
+    "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+    "total": 500,
+    "correct": 452,
+    "wrong": 46,
+    "unparsed": 2,
+    "errors": 0,
+    "accuracy": 0.904,
+    "elapsed_seconds": 47675.8
+  }
+}

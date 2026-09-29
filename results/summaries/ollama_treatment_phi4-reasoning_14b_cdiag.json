@@ -1,0 +1,12 @@
+{
+  "treatment": "cdiag",
+  "model": "phi4-reasoning:14b",
+  "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+  "total": 500,
+  "correct": 428,
+  "wrong": 60,
+  "unparsed": 0,
+  "errors": 12,
+  "accuracy": 0.8770491803278688,
+  "elapsed_seconds": 98664.3
+}

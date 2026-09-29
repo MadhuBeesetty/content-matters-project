@@ -1,0 +1,38 @@
+{
+  "control": {
+    "treatment": "control",
+    "model": "deepseek-r1:14b",
+    "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+    "total": 500,
+    "correct": 475,
+    "wrong": 25,
+    "unparsed": 0,
+    "errors": 0,
+    "accuracy": 0.95,
+    "elapsed_seconds": 55597.7
+  },
+  "econst": {
+    "treatment": "econst",
+    "model": "deepseek-r1:14b",
+    "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+    "total": 500,
+    "correct": 478,
+    "wrong": 20,
+    "unparsed": 0,
+    "errors": 2,
+    "accuracy": 0.9598393574297188,
+    "elapsed_seconds": 55567.5
+  },
+  "cdiag": {
+    "treatment": "cdiag",
+    "model": "deepseek-r1:14b",
+    "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+    "total": 500,
+    "correct": 464,
+    "wrong": 34,
+    "unparsed": 0,
+    "errors": 2,
+    "accuracy": 0.9317269076305221,
+    "elapsed_seconds": 55644.1
+  }
+}

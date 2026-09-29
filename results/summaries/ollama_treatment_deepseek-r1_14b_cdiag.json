@@ -1,0 +1,12 @@
+{
+  "treatment": "cdiag",
+  "model": "deepseek-r1:14b",
+  "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+  "total": 1500,
+  "correct": 1438,
+  "wrong": 62,
+  "unparsed": 0,
+  "errors": 0,
+  "accuracy": 0.9586666666666667,
+  "elapsed_seconds": 124043.0
+}

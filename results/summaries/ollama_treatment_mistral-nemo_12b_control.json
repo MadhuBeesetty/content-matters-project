@@ -1,0 +1,12 @@
+{
+  "treatment": "control",
+  "model": "mistral-nemo:12b",
+  "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+  "total": 500,
+  "correct": 250,
+  "wrong": 127,
+  "unparsed": 123,
+  "errors": 0,
+  "accuracy": 0.5,
+  "elapsed_seconds": 5521.2
+}

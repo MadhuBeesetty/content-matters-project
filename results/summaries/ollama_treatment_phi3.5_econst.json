@@ -1,0 +1,12 @@
+{
+  "treatment": "econst",
+  "model": "phi3.5",
+  "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+  "total": 500,
+  "correct": 397,
+  "wrong": 100,
+  "unparsed": 3,
+  "errors": 0,
+  "accuracy": 0.794,
+  "elapsed_seconds": 3064.3
+}

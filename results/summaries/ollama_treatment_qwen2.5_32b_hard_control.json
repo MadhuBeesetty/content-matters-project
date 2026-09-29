@@ -1,0 +1,12 @@
+{
+  "treatment": "control",
+  "model": "qwen2.5:32b",
+  "metric": "answer-level accuracy vs gold label (prompt-level treatment, no training)",
+  "total": 500,
+  "correct": 471,
+  "wrong": 29,
+  "unparsed": 0,
+  "errors": 0,
+  "accuracy": 0.942,
+  "elapsed_seconds": 37523.1
+}
